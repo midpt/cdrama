@@ -32,8 +32,8 @@ Description: Awesome dude, awesome life
         <li class="notepad-mobile-close-btn show-for-small text-right">
             <a href="#"><i class="fa fa-times"></i></a>
         </li>
+		
 		<!-- This the menu item such as Home, Featured Posts, Feed, About etc   -->	
-		AAA
 		{% for link in site.links %}
 					<li>{% if link.external %}
 					<a href="{{ link.url }}">{{ link.title }}</a>
@@ -42,7 +42,7 @@ Description: Awesome dude, awesome life
 					{% endif %} </li>
 		{% endfor %}   
          
-<!--           <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>    -->
+          <!--           <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>    -->
     </ul>
 </div>
         <div class="clearfix"></div>
