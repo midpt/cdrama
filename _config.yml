@@ -15,7 +15,7 @@ owner:
   avatar:         my_avatar.png
   email:          midpt@yahoo.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Life with rich colour
+  description:    A colourful life
   # Social networking links used in footer. Update and remove as you like.
   twitter:        midpt
   facebook:       midpt
@@ -39,10 +39,7 @@ links:
     icon: home
   - title: Featured Posts
     url: /featured
-  - title: Categories
-    url: /categories
-  - title: About
-    url: /about
+
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Singapore
