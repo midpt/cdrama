@@ -1,6 +1,6 @@
-title:            Cantonese Drama
-description:      "Let's Cantonese tradition lingers on..."
-logo:             logo.png
+title:            Cantonese Opera
+description:      "Experience rich Cantonese opera tradition"
+logo:             mylogo.png
 disqus_shortname: midpt
 share:            true
 dropcap:			true
@@ -12,7 +12,7 @@ url:        	  /cdrama
 # Owner/author information
 owner:
   name:           MK Cheong
-  avatar:         hmfaysal.jpg
+  avatar:         my_avatar.png
   email:          midpt@yahoo.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Awesome Dude, Awesome Life
