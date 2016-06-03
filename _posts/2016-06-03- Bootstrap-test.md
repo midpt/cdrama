@@ -49,7 +49,7 @@ featured: true
  <h3>Image Carousel</h3>
   <br/>
 
- 
+ <div class="orbit-container">
   <ul data-orbit class="example-orbit orbit-slides-container">
     <li>
       <img src="http://www.w3schools.com/bootstrap/img_chania.jpg" alt="slide 1" />
@@ -58,23 +58,24 @@ featured: true
       </div>
     </li>
     <li class="active">
-      <img src="http://www.w3schools.com/bootstrap/img_chania2.jpg" alt="slide 1" />
+      <img src="http://www.w3schools.com/bootstrap/img_chania2.jpg" alt="slide 2" />
       <div class="orbit-caption">
         Caption Two.
       </div>
     </li>
     <li>
-      <img src="http://www.w3schools.com/bootstrap/img_flower.jpg" alt="slide 1" />
+      <img src="http://www.w3schools.com/bootstrap/img_flower.jpg" alt="slide 3" />
       <div class="orbit-caption">
         Caption Three.
       </div>
     </li>
     <li>
-      <img src="http://www.w3schools.com/bootstrap/img_flower2.jpg" alt="slide 1" />
+      <img src="http://www.w3schools.com/bootstrap/img_flower2.jpg" alt="slide 4" />
       <div class="orbit-caption">
-        Caption Three.
+        Caption four.
       </div>
-    </li>  </ul>
+    </li>  
+	</ul>
 
   <!-- Navigation Arrows -->
   <a href="#" class="orbit-prev">Prev <span></span></a>
