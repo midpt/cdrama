@@ -80,63 +80,7 @@ featured: true
   
   
   
-  
-  
-  
 
-<!-- <div class="orbit-container">  -->
-<!--   <ul data-orbit class="example-orbit">
-    <li>
-      <img src="http://www.w3schools.com/bootstrap/img_chania.jpg" alt="slide 1" />
-      <div class="orbit-caption">
-        Caption One.
-      </div>
-    </li>
-    <li class="active">
-      <img src="http://www.w3schools.com/bootstrap/img_chania2.jpg" alt="slide 2" />
-      <div class="orbit-caption">
-        Caption Two.
-      </div>
-    </li>
-    <li>
-      <img src="http://www.w3schools.com/bootstrap/img_flower.jpg" alt="slide 3" />
-      <div class="orbit-caption">
-        Caption Three.
-      </div>
-    </li>
-    <li>
-      <img src="http://www.w3schools.com/bootstrap/img_flower2.jpg" alt="slide 4" />
-      <div class="orbit-caption">
-        Caption four.
-      </div>
-    </li>  
-	</ul> -->
-
-  <!-- Navigation Arrows -->
-<!--   <a href="#" class="orbit-prev">Prev <span></span></a>
-  <a href="#" class="orbit-next">Next <span></span></a> -->
-
-  <!-- Slide Numbers -->
-<!--   <div class="orbit-slide-number">
-    <span>1</span> of <span>4</span>
-  </div> -->
-
-  <!-- Timer and Play/Pause Button -->
-<!--   <div class="orbit-timer">
-    <span></span>
-    <div class="orbit-progress"></div>
-  </div> -->
- 
-  
-<!--  </div >  --> 
-
-<!-- Bullets -->
-<!-- <ol class="orbit-bullets">
-  <li data-orbit-slide-number="1"></li>
-  <li data-orbit-slide-number="2" class="active"></li>
-  <li data-orbit-slide-number="3"></li>
-  <li data-orbit-slide-number="4"></li>
-</ol>   -->
   
   
   
