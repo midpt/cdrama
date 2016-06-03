@@ -48,9 +48,49 @@ featured: true
  <!--  Foundation Image carousel                        -->
  <h3>Image Carousel</h3>
   <br/>
+  
+ <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+  <ul class="orbit-container">
+    <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+    <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+    <li class="is-active orbit-slide">
+      <img class="orbit-image" src="http://www.w3schools.com/bootstrap/img_chania.jpg" alt="Space">
+      <figcaption class="orbit-caption">Space, the final frontier.</figcaption>
+    </li>
+    <li class="orbit-slide">
+      <img class="orbit-image" src="http://www.w3schools.com/bootstrap/img_chania2.jpg"  alt="Space">
+      <figcaption class="orbit-caption">Lets Rocket!</figcaption>
+    </li>
+    <li class="orbit-slide">
+      <img class="orbit-image" src="http://www.w3schools.com/bootstrap/img_flower.jpg" alt="Space">
+      <figcaption class="orbit-caption">Encapsulating</figcaption>
+    </li>
+    <li class="orbit-slide">
+      <img class="orbit-image" src="http://www.w3schools.com/bootstrap/img_flower2.jpg"alt="Space">
+      <figcaption class="orbit-caption">Outta This World</figcaption>
+    </li>
+  </ul>
+  <nav class="orbit-bullets">
+    <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+    <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+    <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+    <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+  </nav>
+</div> 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
-<div class="orbit-container"> 
-  <ul data-orbit class="example-orbit">
+<!-- <div class="orbit-container">  -->
+<!--   <ul data-orbit class="example-orbit">
     <li>
       <img src="http://www.w3schools.com/bootstrap/img_chania.jpg" alt="slide 1" />
       <div class="orbit-caption">
@@ -75,33 +115,33 @@ featured: true
         Caption four.
       </div>
     </li>  
-	</ul>
+	</ul> -->
 
   <!-- Navigation Arrows -->
-  <a href="#" class="orbit-prev">Prev <span></span></a>
-  <a href="#" class="orbit-next">Next <span></span></a>
+<!--   <a href="#" class="orbit-prev">Prev <span></span></a>
+  <a href="#" class="orbit-next">Next <span></span></a> -->
 
   <!-- Slide Numbers -->
-  <div class="orbit-slide-number">
+<!--   <div class="orbit-slide-number">
     <span>1</span> of <span>4</span>
-  </div>
+  </div> -->
 
   <!-- Timer and Play/Pause Button -->
-  <div class="orbit-timer">
+<!--   <div class="orbit-timer">
     <span></span>
     <div class="orbit-progress"></div>
-  </div>
+  </div> -->
  
   
- </div >  
+<!--  </div >  --> 
 
 <!-- Bullets -->
-<ol class="orbit-bullets">
+<!-- <ol class="orbit-bullets">
   <li data-orbit-slide-number="1"></li>
   <li data-orbit-slide-number="2" class="active"></li>
   <li data-orbit-slide-number="3"></li>
   <li data-orbit-slide-number="4"></li>
-</ol>  
+</ol>   -->
   
   
   
