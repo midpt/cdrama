@@ -43,33 +43,3 @@ Example - two columns:
 [More info about Foundation framework](http://foundation.zurb.com/docs/)
 
 
- <h3>Image Carousel</h3>
-  <br/>
-  
-
-    <ul class="example-orbit" data-orbit >
-    <li>
-      <img src="http://www.w3schools.com/bootstrap/img_chania.jpg" alt="slide 1" />
-      <div class="orbit-caption">
-        Caption One.
-      </div>
-    </li>
-    <li class="active">
-      <img src="http://www.w3schools.com/bootstrap/img_chania2.jpg" alt="slide 2" />
-      <div class="orbit-caption">
-        Caption Two.
-      </div>
-    </li>
-    <li>
-      <img src="http://www.w3schools.com/bootstrap/img_flower.jpg" alt="slide 3" />
-      <div class="orbit-caption">
-        Caption Three.
-      </div>
-    </li>
-    <li>
-      <img src="http://www.w3schools.com/bootstrap/img_flower2.jpg" alt="slide 4" />
-      <div class="orbit-caption">
-        Caption four.
-      </div>
-    </li>  
-	</ul>
