@@ -45,37 +45,59 @@ featured: true
     <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
   </div>
 
- <!--  bootstrap Image carousel                        -->
+ <!--  Foundation Image carousel                        -->
  <h3>Image Carousel</h3>
   <br/>
-  
-  <ul class="example-orbit" data-orbit>
-  <li>
-    <img src="http://www.w3schools.com/bootstrap/img_chania.jpg" alt="slide 1" />
-    <div class="orbit-caption">
-      Caption One.
-    </div>
-  </li>
-  <li class="active">
-    <img src="http://www.w3schools.com/bootstrap/img_chania2.jpg" alt="slide 2" />
-    <div class="orbit-caption">
-      Caption Two.
-    </div>
-  </li>
-  <li>
-    <img src="http://www.w3schools.com/bootstrap/img_flower.jpg" alt="slide 3" />
-    <div class="orbit-caption">
-      Caption Three.
-    </div>
-  </li>
-  <li>
-    <img src="http://www.w3schools.com/bootstrap/img_flower2.jpg" alt="slide 4" />
-    <div class="orbit-caption">
-      Caption Four.
-    </div>
-  </li>
-  </ul>
-  
+
+ 
+  <ul data-orbit class="example-orbit orbit-slides-container">
+    <li>
+      <img src="http://www.w3schools.com/bootstrap/img_chania.jpg" alt="slide 1" />
+      <div class="orbit-caption">
+        Caption One.
+      </div>
+    </li>
+    <li class="active">
+      <img src="http://www.w3schools.com/bootstrap/img_chania2.jpg" alt="slide 1" />
+      <div class="orbit-caption">
+        Caption Two.
+      </div>
+    </li>
+    <li>
+      <img src="http://www.w3schools.com/bootstrap/img_flower.jpg" alt="slide 1" />
+      <div class="orbit-caption">
+        Caption Three.
+      </div>
+    </li>
+    <li>
+      <img src="http://www.w3schools.com/bootstrap/img_flower2.jpg" alt="slide 1" />
+      <div class="orbit-caption">
+        Caption Three.
+      </div>
+    </li>  </ul>
+
+  <!-- Navigation Arrows -->
+  <a href="#" class="orbit-prev">Prev <span></span></a>
+  <a href="#" class="orbit-next">Next <span></span></a>
+
+  <!-- Slide Numbers -->
+  <div class="orbit-slide-number">
+    <span>1</span> of <span>3</span>
+  </div>
+
+  <!-- Timer and Play/Pause Button -->
+  <div class="orbit-timer">
+    <span></span>
+    <div class="orbit-progress"></div>
+  </div>
+</div>
+
+<!-- Bullets -->
+<ol class="orbit-bullets">
+  <li data-orbit-slide-number="1"></li>
+  <li data-orbit-slide-number="2" class="active"></li>
+  <li data-orbit-slide-number="3"></li>
+</ol>  
   
   
   
