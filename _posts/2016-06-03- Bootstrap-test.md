@@ -49,7 +49,7 @@ featured: true
  <h3>Image Carousel</h3>
   <br/>
 
- <div class="orbit-container">
+<!-- <div class="orbit-container">  -->
   <ul data-orbit class="example-orbit orbit-slides-container">
     <li>
       <img src="http://www.w3schools.com/bootstrap/img_chania.jpg" alt="slide 1" />
@@ -91,7 +91,7 @@ featured: true
     <span></span>
     <div class="orbit-progress"></div>
   </div>
-</div>
+<!-- </div >  -->
 
 <!-- Bullets -->
 <ol class="orbit-bullets">
