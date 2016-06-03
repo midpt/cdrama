@@ -42,7 +42,7 @@ Example - two columns:
 
 [More info about Foundation framework](http://foundation.zurb.com/docs/)
 
-<!--  Foundation Image carousel                        -->
+
  <h3>Image Carousel</h3>
   <br/>
   
