@@ -83,7 +83,7 @@ featured: true
 
   <!-- Slide Numbers -->
   <div class="orbit-slide-number">
-    <span>1</span> of <span>3</span>
+    <span>1</span> of <span>4</span>
   </div>
 
   <!-- Timer and Play/Pause Button -->
@@ -98,6 +98,7 @@ featured: true
   <li data-orbit-slide-number="1"></li>
   <li data-orbit-slide-number="2" class="active"></li>
   <li data-orbit-slide-number="3"></li>
+  <li data-orbit-slide-number="4"></li>
 </ol>  
   
   
