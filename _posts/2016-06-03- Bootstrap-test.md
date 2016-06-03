@@ -50,7 +50,7 @@ featured: true
   <br/>
   
 
-    <ul data-orbit class="example-orbit">
+    <ul class="example-orbit" data-orbit >
     <li>
       <img src="http://www.w3schools.com/bootstrap/img_chania.jpg" alt="slide 1" />
       <div class="orbit-caption">
