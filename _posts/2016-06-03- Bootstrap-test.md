@@ -44,10 +44,10 @@ To open the dropdown menu, use a button or a link with a class of .dropdown-togg
 		  <li><a href="#">JavaScript</a></li>
 		</ul>
 	  </div> 
-
+ </div>
 	  
 ### Bootstrap buttons
-
+ <div class="small-7 small-centered columns"> 
   <button type="button" class="btn btn-default">Default</button>
   <button type="button" class="btn btn-primary">Primary</button>
   <button type="button" class="btn btn-success">Success</button>
@@ -56,11 +56,12 @@ To open the dropdown menu, use a button or a link with a class of .dropdown-togg
   <button type="button" class="btn btn-danger">Danger</button>
   <button type="button" class="btn btn-link">Link</button> 
   <br/> 
-
+	  
+ </div>
   
   
 ### Jumbotron
-
+ <div class="small-7 small-centered columns"> 
    <div class="jumbotron">
     <h4>Bootstrap Tutorial</h4>      
     <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
