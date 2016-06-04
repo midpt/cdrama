@@ -67,10 +67,10 @@ Snippet of the foundation image carousel code
 <style>
   <!--   Change navigation next prev  left position   -->
 	.orbit-container .orbit-prev  {
-	  left:+25%;
+	  left:+55%;
 	}
 	.orbit-container .orbit-prev: hover {
-	  left:+25%;
+	  left:+55%;
 	}
 
 	.orbit-container .orbit-next  {
