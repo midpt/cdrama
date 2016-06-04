@@ -12,7 +12,7 @@ chart:
 comments: false
 featured: true
 ---
-
+ <div class="small-6 large-centered columns">
 ### Overview
 
 I have not been successfull using Bootstrap Image Carousel, however, Foundation image carousel seems to work very well.
@@ -40,7 +40,7 @@ Snippet of the foundation image carousel code
    </div>		 
 
 ````  
-
+</div>
 
 <!--   Foundation Image Carousel   -->		
  	
