@@ -51,22 +51,22 @@ Snippet of the foundation image carousel code
     <ul class="example-orbit" data-orbit >	
 		<li>
 		  <img src="http://www.w3schools.com/bootstrap/img_chania.jpg" alt="slide 1" />
-		   <div class="orbit-caption" >Caption One.</div>
+		   <div style="text-align: center">Caption One.</div>
 		</li>
 
 		<li class="active">
 			 <img src="http://www.w3schools.com/bootstrap/img_chania2.jpg" alt="slide 2" /> 
-			 <div class="orbit-caption" >Caption Two.</div>		 
+			 <div class="orbit-caption" style="text-align: center">Caption Two.</div>		 
 		</li>
 
 		<li>
 			  <img src="http://www.w3schools.com/bootstrap/img_flower.jpg" alt="slide 3" />
-			  <div class="orbit-caption" >Caption Three.</div>
+			  <div class="orbit-caption" style="text-align: center">Caption Three.</div>
 		</li>
 
 		<li>
 			  <img src="http://www.w3schools.com/bootstrap/img_flower2.jpg" alt="slide 4" />
-			   <div class="orbit-caption" >Caption four.</div>
+			   <div class="orbit-caption" style="text-align: center">Caption four.</div>
 		 </li> 
 
     </ul>
