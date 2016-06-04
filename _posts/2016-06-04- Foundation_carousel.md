@@ -64,7 +64,7 @@ Navigation Next and Prev arrows will be shown in PC only.
 For touch devices, it will not be shown. You just swipe left right to change slide
 To manually change the Left pos of Next Prev arrows create the following style at the top of the page
 
-	<style>
+>	<style>
 
 	.orbit-container .orbit-prev  {
 	left:+25%;
@@ -80,9 +80,8 @@ To manually change the Left pos of Next Prev arrows create the following style a
 	   left:+76%;   
 	}
 
-	</style>
+>	</style>
 
-  
 
 ````  
   
