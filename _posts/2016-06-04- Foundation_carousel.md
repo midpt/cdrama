@@ -63,7 +63,7 @@ Snippet of the foundation image carousel code
 > Navigation Next and Prev arrows will be shown in PC only.
 > For touch devices, it will not be shown. You just swipe left right to change slide
 > To manually change the Left pos of Next Prev arrows create the following style at the top of the page
-
+>
 >	<style>
 >
 >	.orbit-container .orbit-prev  {
@@ -82,8 +82,7 @@ Snippet of the foundation image carousel code
 >
 >	</style>
 
-
-````  
+ 
   
 
 <!--   Foundation Image Carousel   1-->		
