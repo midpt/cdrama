@@ -111,8 +111,17 @@ Snippet of the foundation image carousel code
 		 </li> 
 
     </ul>
-	</div>
-   </div>
-  </div> <!-- end orbit container -->
+	</div>  <!-- small-9 small-centered columns -->
+	  <!-- Timer and Play/Pause Button -->
+	  <div class="orbit-timer">
+		<span></span>
+		<div class="orbit-progress"></div>
+	  </div>   
+   
+   
+  </div> <!-- end orbit container -->	
+ </div>  <!-- small-9 small-centered columns -->
+
+
  <!--  End  Foundation Image Carousel   2-->	  
   
