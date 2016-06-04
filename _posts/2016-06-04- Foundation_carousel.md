@@ -14,7 +14,7 @@ featured: true
 ---
 <style>
  .orbit-prev:hover  .orbit-prev span {
-left:+250px;
+left:+300px;
 }
  .orbit-next:hover .orbit-next span {
 left:-500px;
