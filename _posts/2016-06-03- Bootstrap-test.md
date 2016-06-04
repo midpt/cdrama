@@ -13,7 +13,7 @@ comments: false
 featured: true
 ---
 ### Modal component
-I have problem using Bootstrap Modal. When the modal window appears, it is dimmed and its dialog buttons are inactive.
+Has problem using Bootstrap Modal. When the modal window appears, it is dimmed and its dialog buttons are inactive.
 The alternative is to use Foundation Modal.
 
 ### Modal Using Foundation 
@@ -33,7 +33,7 @@ The alternative is to use Foundation Modal.
   <p>Use the .dropdown-menu class to actually build the dropdown menu.</p>
   <p>To open the dropdown menu, use a button or a link with a class of .dropdown-toggle and data-toggle="dropdown".</p>
   
-  <div class="small-6 large-centered columns"> 
+  <div class="small-centred large-centered columns"> 
 	  <div class="dropdown">
 		<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
 		<span class="caret"></span></button>

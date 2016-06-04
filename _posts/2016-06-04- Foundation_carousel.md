@@ -23,7 +23,7 @@ Snippet of the foundation image carousel code
 ````
   <div class="small-6 large-centered columns">
    <div class="small-6 large-centered columns">
-     <ul class="example-orbit" data-orbit >	
+      <ul class="example-orbit" data-orbit >	
 		<li>
 		  <img src="..." alt="slide 1" />
 		   <div class="orbit-caption" >Caption One.</div>
@@ -35,7 +35,7 @@ Snippet of the foundation image carousel code
 		</li>
 		
 		 ..   ..
-    </ul>
+      </ul>
 	</div>
   </div>		 
 
