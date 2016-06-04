@@ -112,13 +112,19 @@ Snippet of the foundation image carousel code
 
     </ul>
 	</div>  <!-- small-9 small-centered columns -->
+	
+	 <!-- Navigation Arrows -->
+	  <a href="#" class="orbit-prev">Prev <span></span></a>
+	  <a href="#" class="orbit-next">Next <span></span></a>
+
+	
 	  <!-- Timer and Play/Pause Button -->
 	  <div class="orbit-timer">
 		<span></span>
 		<div class="orbit-progress"></div>
 	  </div>   
    
-   
+     
   </div> <!-- end orbit container -->	
  </div>  <!-- small-9 small-centered columns -->
 
