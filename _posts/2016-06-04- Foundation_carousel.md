@@ -76,7 +76,7 @@ Snippet of the foundation image carousel code
 	</div>
    </div>
    
-     <!---  The following image slider navigations are optional.  However you can override them with your own next prev symbols and pos  -->
+     <!--  The following image slider navigations are optional.  However you can override them with your own next prev symbols and pos  -->
      <a href="#" class="orbit-prev" style="left:+100px"><span></span></a>
      <a href="#" class="orbit-next"style="right:-100px"><span></span></a>
 
