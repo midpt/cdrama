@@ -29,10 +29,10 @@ left:+260px;
 
 
 .orbit-container .orbit-prev  {
-left:+12%;
+left:+42%;
 }
 .orbit-container .orbit-prev: hover {
-left:+12%;
+left:+42%;
 }
 
 .orbit-container .orbit-next  {
