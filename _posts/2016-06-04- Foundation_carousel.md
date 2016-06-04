@@ -14,6 +14,7 @@ featured: true
 ---
 <style>
 
+/*    Change navigation next prev  left position   *
 .orbit-container .orbit-prev  {
 left:+25%;
 }
