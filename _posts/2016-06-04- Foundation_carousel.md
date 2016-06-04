@@ -117,6 +117,11 @@ Snippet of the foundation image carousel code
 	  <a href="#" class="orbit-prev">Prev <span></span></a>
 	  <a href="#" class="orbit-next">Next <span></span></a>
 
+	  <!-- Slide Numbers -->
+	  <div class="orbit-slide-number">
+		<span>1</span> of <span>4/span>
+	  </div>	
+	
 	
 	  <!-- Timer and Play/Pause Button -->
 	  <div class="orbit-timer">
