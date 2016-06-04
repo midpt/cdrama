@@ -13,17 +13,17 @@ comments: false
 featured: true
 ---
 <style>
-.orbit-prev span {
-left:+250px;
+.orbit-container .orbit-prev  {
+x:+250px;
 }
 .orbit-container .orbit-prev: hover {
-left:+250px;
+x:+250px;
 }
- .orbit-next span {
-left:-800px;
+.orbit-container .orbit-next  {
+x:-800px;
 }
 .orbit-container .orbit-next:hover  {
-left:-800px;
+x:-800px;
 }
 </style>
 
