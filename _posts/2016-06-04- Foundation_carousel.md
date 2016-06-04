@@ -40,7 +40,7 @@ Snippet of the foundation image carousel code
   </div>		 
 
 ````  
-
+  
 
 <!--   Foundation Image Carousel   -->		
  	
