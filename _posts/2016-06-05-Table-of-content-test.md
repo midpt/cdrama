@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Table of content test out"
-description: 
+description: Testing of table of content using Markdown
 headline: 
 modified: 2016-06-05
 category: webdevelopment
@@ -12,15 +12,6 @@ chart:
 comments: false
 featured: true
 ---
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3 >Contents</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
 
  
 ## MarkdownPad2
