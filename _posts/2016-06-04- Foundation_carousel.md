@@ -21,8 +21,8 @@ Snippet of the foundation image carousel code
 
 
 ````
-  <div class="small-6 large-centered columns">
-   <div class="small-6 large-centered columns">
+  <div class="small-centered large-centered columns">
+   <div class="small-centered large-centered columns">
       <ul class="example-orbit" data-orbit >	
 		<li>
 		  <img src="..." alt="slide 1" />
@@ -44,10 +44,10 @@ Snippet of the foundation image carousel code
 
 <!--   Foundation Image Carousel   -->		
  	
- <div class="small-6 large-centered columns">
+ <div class="small-centered large-centered columns">
  <h3>Image Carousel</h3>
   <br/>
-	<div class="small-6 large-centered columns">
+	<div class="small-centered large-centered columns">
     <ul class="example-orbit" data-orbit >	
 		<li>
 		  <img src="http://www.w3schools.com/bootstrap/img_chania.jpg" alt="slide 1" />
