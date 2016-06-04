@@ -13,6 +13,35 @@ comments: false
 featured: true
 ---
 
+### Overview
+
+I have not been successfull using Bootstrap Image Carousel, however, Foundation image carousel seems to work very well.
+
+Snippet of the foundation image carousel code
+
+````
+ <div class="small-6 large-centered columns">
+
+	<div class="small-6 large-centered columns">
+    <ul class="example-orbit" data-orbit >	
+		<li>
+		  <img src="..." alt="slide 1" />
+		   <div class="orbit-caption" >Caption One.</div>
+		</li>
+
+		<li class="active">
+			 <img src="http://www.w3schools.com/bootstrap/img_chania2.jpg" alt="slide 2" /> 
+			 <div class="orbit-caption" >Caption Two.</div>		 
+		</li>
+		
+		 ..   ..
+    </ul>
+	</div>
+   </div>		 
+
+````  
+
+
 <!--   Foundation Image Carousel   -->		
  	
  <div class="small-6 large-centered columns">
