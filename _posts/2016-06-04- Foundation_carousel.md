@@ -41,7 +41,7 @@ Snippet of the foundation image carousel code
 
 
 
-> ````
+````
 >  <div class="small-7 small-centered columns">
 >  <div class="small-7 small-centered columns">
 >      <ul class="example-orbit" data-orbit >	
@@ -81,7 +81,7 @@ Snippet of the foundation image carousel code
 >	}
 >
 >	</style>
-> ````
+````
  
   
 
