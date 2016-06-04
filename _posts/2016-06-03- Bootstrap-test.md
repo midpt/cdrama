@@ -22,7 +22,7 @@ featured: true
 {:toc}
 </div>
 </section><!-- /#table-of-contents -->
-
+   
 ### Bootstrap buttons
 
  <div class="small-7 small-centered columns"> 
