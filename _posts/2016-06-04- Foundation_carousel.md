@@ -13,26 +13,12 @@ comments: false
 featured: true
 ---
 <style>
-.orbit-container .orbit-prev  {
-left:+260px;
-}
-.orbit-container .orbit-prev: hover {
-left:+260px;
-}
-
-.orbit-container .orbit-next  {
- left:+600px;
-}
-.orbit-container .orbit-next: hover  {
-   left:+600px;   
-}
-
 
 .orbit-container .orbit-prev  {
-left:+26%;
+left:+25%;
 }
 .orbit-container .orbit-prev: hover {
-left:+26%;
+left:+25%;
 }
 
 .orbit-container .orbit-next  {
