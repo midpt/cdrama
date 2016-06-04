@@ -86,7 +86,7 @@ Snippet of the foundation image carousel code
   <br/>
   <div class="orbit-container">
 	<div class="small-9 small-centered columns">
-    <ul class="example-orbit" data-orbit >	
+    <ul data-orbit  class="example-orbit orbit-slides-container"  >	
 		<li>
 			<center> <img src="http://www.w3schools.com/bootstrap/img_chania.jpg" alt="slide 1" /></center>
 		   <div style="text-align: center">Caption One.</div>
