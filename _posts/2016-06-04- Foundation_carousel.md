@@ -13,23 +13,20 @@ comments: false
 featured: true
 ---
 <style>
-
   <!--   Change navigation next prev  left position   -->
-.orbit-container .orbit-prev  {
-left:+25%;
-}
-.orbit-container .orbit-prev: hover {
-left:+25%;
-}
+	.orbit-container .orbit-prev  {
+	left:+25%;
+	}
+	.orbit-container .orbit-prev: hover {
+	left:+25%;
+	}
 
-.orbit-container .orbit-next  {
- left:+76%;
-}
-.orbit-container .orbit-next: hover  {
-   left:+76%;   
-}
-
-
+	.orbit-container .orbit-next  {
+	 left:+76%;
+	}
+	.orbit-container .orbit-next: hover  {
+	   left:+76%;   
+	}
 
 </style>  
 
@@ -63,8 +60,22 @@ Snippet of the foundation image carousel code
 > Navigation Next and Prev arrows will be shown in PC only.
 > For touch devices, it will not be shown. You just swipe left right to change slide
 > To manually change the Left pos of Next and Prev arrows, create the following style at the top of the page
+>	
+>   <style>
+>	.orbit-container .orbit-prev  {
+>	  /*  left:+25%;  */
+>	}
+>	.orbit-container .orbit-prev: hover {
+>	 /*  left:+25%;  */
+>	}
 >
->
+>	.orbit-container .orbit-next  {
+>	 /*  left:+76%; */
+>	}
+>	.orbit-container .orbit-next: hover  {
+>	  /*  left:+76%;   */ 
+>	}
+>   </style>
 >
 >	
 ````
