@@ -57,7 +57,7 @@ Foundation image carousel code snippets
 	</div>
   </div>
 
- Navigation Next and Prev arrows will only be shown PC only.
+ Navigation Next and Prev arrows will only be shown in PC only.
  For touch devices, they will not be shown. User just swipe left or right to change the slide.
  To manually change the Left position of Next and Prev arrows, create the following style at the top of the page
  You need to include the style tag. 	
