@@ -76,7 +76,7 @@ Snippet of the foundation image carousel code
 	  /*  left:+76%;   */ 
 	}
 
-
+ 
 ```
    
 
