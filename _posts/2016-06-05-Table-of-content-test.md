@@ -5,7 +5,7 @@ description:
 headline: 
 modified: 2016-06-05
 category: webdevelopment
-tags: [center, centralise]
+tags: [table]
 imagefeature: 
 mathjax: 
 chart: 
