@@ -44,10 +44,10 @@ Snippet of the foundation image carousel code
 
 <!--   Foundation Image Carousel   -->		
  	
- <div class="small-centered large-centered columns">
+ <div class="small-7 small-centered columns">
  <h3>Image Carousel</h3>
   <br/>
-	<div class="small-centered large-centered columns">
+	<div class="small-7 small-centered columns">
     <ul class="example-orbit" data-orbit >	
 		<li>
 		  <img src="http://www.w3schools.com/bootstrap/img_chania.jpg" alt="slide 1" />
