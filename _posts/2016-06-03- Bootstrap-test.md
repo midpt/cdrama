@@ -13,6 +13,8 @@ comments: false
 featured: true
 ---
 
+{:toc}
+
 ### Bootstrap buttons
 
  <div class="small-7 small-centered columns"> 
