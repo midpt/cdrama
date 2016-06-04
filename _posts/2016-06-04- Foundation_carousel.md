@@ -34,7 +34,7 @@ featured: true
 
 I have not been successfull using Bootstrap Image Carousel, however, Foundation image carousel seems to work very well.
 
-Snippet of the foundation image carousel code
+Foundation image carousel code snippets
 
 
 
