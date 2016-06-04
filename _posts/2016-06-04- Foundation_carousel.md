@@ -13,12 +13,12 @@ comments: false
 featured: true
 ---
 <style>
-  <!--   Change navigation next prev  left position   -->
+
 	.orbit-container .orbit-prev  {
-	  left:+65%;
+	  left:+75%;
 	}
 	.orbit-container .orbit-prev: hover {
-	  left:+65%;
+	  left:+75%;
 	}
 
 	.orbit-container .orbit-next  {
