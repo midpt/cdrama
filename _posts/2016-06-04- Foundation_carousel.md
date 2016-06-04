@@ -81,11 +81,11 @@ Snippet of the foundation image carousel code
   
 <!--   Foundation Image Carousel   2-->		
  	
- <div class="small-9 small-centered columns">
+ <!-- <div class="small-9 small-centered columns"> -->
  <h3>Image Carousel</h3>
   <br/>
   <div class="orbit-container">
-	<div class="small-9 small-centered columns">
+	<!-- <div class="small-9 small-centered columns"> -->
     <ul data-orbit  class="example-orbit orbit-slides-container"  >	
 		<li>
 			<center> <img src="http://www.w3schools.com/bootstrap/img_chania.jpg" alt="slide 1" /></center>
@@ -111,7 +111,7 @@ Snippet of the foundation image carousel code
 		 </li> 
 
     </ul>
-	</div>  <!-- small-9 small-centered columns -->
+	<!-- </div>  <!-- small-9 small-centered columns --> -->
 	
 	 <!-- Navigation Arrows -->
 	  <a href="#" class="orbit-prev">Prev <span></span></a>
@@ -126,7 +126,7 @@ Snippet of the foundation image carousel code
    
      
   </div> <!-- end orbit container -->	
- </div>  <!-- small-9 small-centered columns -->
+ <!-- </div>  <!-- small-9 small-centered columns --> -->
 
 
  <!--  End  Foundation Image Carousel   2-->	  
