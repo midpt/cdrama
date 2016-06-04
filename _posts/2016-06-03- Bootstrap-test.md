@@ -4,7 +4,7 @@ title: "Bootstrap test"
 description: 
 headline: 
 modified: 2016-06-03
-category: webdevelopment
+category: theme
 tags: [bootstrap, modal]
 imagefeature: 
 mathjax: 
