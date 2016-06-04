@@ -16,13 +16,13 @@ featured: true
 .orbit-prev span {
 left:+300px;
 }
- .orbit-prev: hover {
+.orbit-container .orbit-prev: hover {
 left:+300px;
 }
- .orbit-next:hover .orbit-next span {
+ .orbit-next span {
 left:-600px;
 }
- .orbit-next:hover  {
+.orbit-container .orbit-next:hover  {
 left:-600px;
 }
 </style>
