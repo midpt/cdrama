@@ -18,11 +18,12 @@ When writing markdown in Github Jekyll page, do not use back-tick fenced code, i
 
 
 {% raw %}{% highlight html %} {% endraw%} 
+{% highlight html %}
  <div>
      <p> Paragraph 1   </p>
      <p> Paragraph 2   </p>
  </div>
-
+{% endhighlight %}
 {% raw %}{% endhighlight %}{% endraw%} 
    
 
