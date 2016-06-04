@@ -38,7 +38,7 @@ Foundation image carousel code snippets
 
 
 
-```
+{% highlight html %}
   <div class="small-7 small-centered columns">
   <div class="small-7 small-centered columns">
       <ul class="example-orbit" data-orbit >	
@@ -77,7 +77,7 @@ Foundation image carousel code snippets
 	}
 
   
-```
+{% endhighlight %}
    
 
 
