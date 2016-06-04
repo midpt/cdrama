@@ -27,7 +27,7 @@ When writing markdown in Github Jekyll page, do not use back-tick fenced code, i
 {% raw %}{% endhighlight %}{% endraw%} 
    
 {% endhighlight %}
-     
+        
 	 
 ### Literally display liquid code double braces instead of parsing the object	 
 
