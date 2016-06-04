@@ -67,17 +67,17 @@ Snippet of the foundation image carousel code
 >	
 >
 >	.orbit-container .orbit-prev  {
->	left:+25%;
+>	  /*  left:+25%;  */
 >	}
 >	.orbit-container .orbit-prev: hover {
->	left:+25%;
+>	 /*  left:+25%;  */
 >	}
 >
 >	.orbit-container .orbit-next  {
->	 left:+76%;
+>	 /*  left:+76%; */
 >	}
 >	.orbit-container .orbit-next: hover  {
->	   left:+76%;   
+>	  /*  left:+76%;   */ 
 >	}
 >
 >	
