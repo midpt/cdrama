@@ -32,4 +32,4 @@ When writing markdown in Github Jekyll page, do not use back-tick fenced code, i
 ### Literally display liquid code double braces instead of parsing the object	 
 
 Sometimes you may want to literally display double-brace liquid code instead of letting Jekyll render its output.
-In this situation you can embed the liquid code with {% raw %} {% raw %}  {% endraw %}      {% endraw %}   
+In this situation you can embed the liquid code with  
