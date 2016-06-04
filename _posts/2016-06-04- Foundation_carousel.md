@@ -50,24 +50,24 @@ Snippet of the foundation image carousel code
 	<div class="small-9 small-centered columns">
     <ul class="example-orbit" data-orbit >	
 		<li>
-		  <img src="http://www.w3schools.com/bootstrap/img_chania.jpg" alt="slide 1" />
+			<center> <img src="http://www.w3schools.com/bootstrap/img_chania.jpg" alt="slide 1" /></center>
 		   <div style="text-align: center">Caption One.</div>
 		</li>
 
 		<li class="active">
-			 <img src="http://www.w3schools.com/bootstrap/img_chania2.jpg" alt="slide 2" /> 
+			<center> <img src="http://www.w3schools.com/bootstrap/img_chania2.jpg" alt="slide 2" /></center> 
 		     <div style="text-align: center">Caption Two</div>
 			 <!-- <div class="orbit-caption" style="text-align: center">Caption Two.</div>		  -->
 		</li>
 
 		<li>
-			  <img src="http://www.w3schools.com/bootstrap/img_flower.jpg" alt="slide 3" />
+			<center> <img src="http://www.w3schools.com/bootstrap/img_flower.jpg" alt="slide 3" /> </center>
 		      <div style="text-align: center">Caption Three</div>
 			  <!-- <div class="orbit-caption" style="text-align: center">Caption Three.</div> -->
 		</li>
 
 		<li>
-			  <img src="http://www.w3schools.com/bootstrap/img_flower2.jpg" alt="slide 4" />
+			<center>  <img src="http://www.w3schools.com/bootstrap/img_flower2.jpg" alt="slide 4" /></center>
 		      <div style="text-align: center">Caption Four</div>
 			   <!-- <div class="orbit-caption" style="text-align: center">Caption four.</div> -->
 		 </li> 
