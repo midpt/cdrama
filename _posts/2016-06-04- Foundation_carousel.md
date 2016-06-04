@@ -36,10 +36,10 @@ left:+26%;
 }
 
 .orbit-container .orbit-next  {
- left:+70%;
+ left:+76%;
 }
 .orbit-container .orbit-next: hover  {
-   left:+70%;   
+   left:+76%;   
 }
 
 
