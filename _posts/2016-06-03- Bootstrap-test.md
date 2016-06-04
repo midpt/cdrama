@@ -41,7 +41,7 @@ The alternative is to use Foundation Modal.
   <br/> 
 	  
  </div>
-  
+   
   
 ### Jumbotron
 
