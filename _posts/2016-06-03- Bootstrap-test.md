@@ -43,7 +43,7 @@ The alternative is to use Foundation Modal.
 		  <li><a href="#">JavaScript</a></li>
 		</ul>
 	  </div> 
-  </div>
+ 
   
    <h3>Jumbotron</h3>
    <div class="jumbotron">
@@ -51,9 +51,9 @@ The alternative is to use Foundation Modal.
     <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
   </div>
 
-
+ </div>
   
-  
+     
   
   
 
