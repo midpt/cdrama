@@ -14,16 +14,16 @@ featured: true
 ---
 <style>
 .orbit-container .orbit-prev  {
-left:+180px;
+left:+220px;
 }
 .orbit-container .orbit-prev: hover {
-left:+180px;
+left:+220px;
 }
 .orbit-container .orbit-next  {
-left:-300px;
+left:-200px;
 }
 .orbit-container .orbit-next:hover  {
-left:-300px;
+left:-200px;
 }
 </style>
 
