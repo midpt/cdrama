@@ -29,17 +29,17 @@ left:+260px;
 
 
 .orbit-container .orbit-prev  {
-left:+50%;
+left:+10%;
 }
 .orbit-container .orbit-prev: hover {
-left:+50%;
+left:+10%;
 }
 
 .orbit-container .orbit-next  {
- left:+600px;
+ left:+70%;
 }
 .orbit-container .orbit-next: hover  {
-   left:+600px;   
+   left:+70%;   
 }
 
 
