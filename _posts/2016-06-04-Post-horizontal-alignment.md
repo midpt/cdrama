@@ -17,7 +17,7 @@ featured: true
 Text will be automatically centralised when writing using markdown.
 
 When HTML tag content is introduced, content may not be horizontally centralised.
-To centralise HTML content, you have to precede HTML markups with the following Foundation grid code
+To centralise HTML content, you have to precede the HTML markups with a div tag using Foundation class declaration like so.
 
 ```
 <div class="small-9 small-centered columns">
@@ -28,12 +28,5 @@ To centralise HTML content, you have to precede HTML markups with the following 
 
 ```
    
-  
-<div class="small-9 small-centered columns">
-	<center>
-		<video width="420" height="315" controls="controls" allowfullscreen="true" poster="">
-			<source src="{{ site.url }}/videos/korean_folk_song_in_mandarin.mp4" type="video/mp4">
-		</video> 
-	</center>
-</div>
+
    
