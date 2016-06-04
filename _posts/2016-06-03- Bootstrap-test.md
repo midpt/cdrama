@@ -28,7 +28,7 @@ The alternative is to use Foundation Modal.
   <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 </div>
  
-  <h3>Dropdowns</h3>
+  <h3>Bootstrap Dropdowns</h3>
   <p>The .dropdown class is used to indicate a dropdown menu.</p>
   <p>Use the .dropdown-menu class to actually build the dropdown menu.</p>
   <p>To open the dropdown menu, use a button or a link with a class of .dropdown-toggle and data-toggle="dropdown".</p>
@@ -43,8 +43,16 @@ The alternative is to use Foundation Modal.
 		  <li><a href="#">JavaScript</a></li>
 		</ul>
 	  </div> 
- 
-  
+ <br/>
+ <h3>Bootstrap buttons</h3>
+  <button type="button" class="btn btn-default">Default</button>
+  <button type="button" class="btn btn-primary">Primary</button>
+  <button type="button" class="btn btn-success">Success</button>
+  <button type="button" class="btn btn-info">Info</button>
+  <button type="button" class="btn btn-warning">Warning</button>
+  <button type="button" class="btn btn-danger">Danger</button>
+  <button type="button" class="btn btn-link">Link</button> 
+  <br/> 
    <h3>Jumbotron</h3>
    <div class="jumbotron">
     <h4>Bootstrap Tutorial</h4>      
