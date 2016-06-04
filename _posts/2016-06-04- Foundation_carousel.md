@@ -5,16 +5,13 @@ description:
 headline: 
 modified: 2016-06-04
 category: webdevelopment
-tags: [bootstrap, modal]
+tags: [foundation, image, carousel]
 imagefeature: 
 mathjax: 
 chart: 
 comments: false
 featured: true
 ---
-
-
-
 ### Overview
 
 I have not been successfull using Bootstrap Image Carousel, however, Foundation image carousel seems to work very well.
@@ -24,10 +21,9 @@ Snippet of the foundation image carousel code
 
 
 ````
- <div class="small-6 large-centered columns">
-
-	<div class="small-6 large-centered columns">
-    <ul class="example-orbit" data-orbit >	
+  <div class="small-6 large-centered columns">
+   <div class="small-6 large-centered columns">
+     <ul class="example-orbit" data-orbit >	
 		<li>
 		  <img src="..." alt="slide 1" />
 		   <div class="orbit-caption" >Caption One.</div>
@@ -41,7 +37,7 @@ Snippet of the foundation image carousel code
 		 ..   ..
     </ul>
 	</div>
-   </div>		 
+  </div>		 
 
 ````  
 

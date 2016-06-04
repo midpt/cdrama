@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: "Bootstrap test"
 description: 
 headline: 
@@ -13,7 +13,7 @@ comments: false
 featured: true
 ---
 
-  <h3>Modal Using Foundation</h3>
+### Modal Using Foundation 
 
   <!-- Modal Foundation -->
 <a href="#" data-reveal-id="myModal">Click Me For A Modal</a>
@@ -45,37 +45,7 @@ featured: true
     <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
   </div>
 
- <!--  Foundation Image carousel                        -->
- <h3>Image Carousel</h3>
-  <br/>
-  
 
-    <ul class="example-orbit" data-orbit >
-    <li>
-      <img src="http://www.w3schools.com/bootstrap/img_chania.jpg" alt="slide 1" />
-      <div class="orbit-caption">
-        Caption One.
-      </div>
-    </li>
-    <li class="active">
-      <img src="http://www.w3schools.com/bootstrap/img_chania2.jpg" alt="slide 2" />
-      <div class="orbit-caption">
-        Caption Two.
-      </div>
-    </li>
-    <li>
-      <img src="http://www.w3schools.com/bootstrap/img_flower.jpg" alt="slide 3" />
-      <div class="orbit-caption">
-        Caption Three.
-      </div>
-    </li>
-    <li>
-      <img src="http://www.w3schools.com/bootstrap/img_flower2.jpg" alt="slide 4" />
-      <div class="orbit-caption">
-        Caption four.
-      </div>
-    </li>  
-	</ul>
   
   
   
