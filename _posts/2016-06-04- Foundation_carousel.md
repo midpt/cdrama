@@ -21,7 +21,7 @@ left:+260px;
 }
 
 .orbit-container .orbit-next  {
- left:+010px;
+ left:+100px;
 }
 .orbit-container .orbit-next:hover  {
    left:+100px;   
