@@ -12,6 +12,10 @@ chart:
 comments: false
 featured: true
 ---
+### Modal component
+Has problem using Bootstrap Modal. When the modal window appears, it is dimmed and its dialog buttons are inactive.
+The alternative is to use Foundation Modal.
+
 
 ### Modal Using Foundation 
 
