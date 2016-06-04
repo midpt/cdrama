@@ -16,15 +16,20 @@ featured: true
   
 When writing markdown in Github Jekyll page, do not use back-tick fenced code, instead use {% raw %} {% highlight html%}.... {% endhighlight%} {% endraw%} block as shown below.
 
-
-{% raw %}{% highlight html %} {% endraw%} 
 {% highlight html %}
+{% raw %}{% highlight html %} {% endraw%} 
+
  <div>
      <p> Paragraph 1   </p>
      <p> Paragraph 2   </p>
  </div>
-{% endhighlight %}
+
 {% raw %}{% endhighlight %}{% endraw%} 
    
-
+{% endhighlight %}
      
+	 
+### Literally display liquid code double braces instead of parsing the object	 
+
+Sometimes you may want to literally display double braces instead of letting Jekyll render its output.
+In this situation embed the liquid code with {% raw %}  {% raw %} your liquid code {% endraw%}   {% endraw%}
