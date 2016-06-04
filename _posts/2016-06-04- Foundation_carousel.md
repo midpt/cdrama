@@ -15,10 +15,10 @@ featured: true
 <style>
 
 	.orbit-container .orbit-prev  {
-	  left:+75%;
+	  left:+45%;
 	}
 	.orbit-container .orbit-prev: hover {
-	  left:+75%;
+	  left:+45%;
 	}
 
 	.orbit-container .orbit-next  {
