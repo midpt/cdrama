@@ -63,7 +63,7 @@ Snippet of the foundation image carousel code
 >
 >	
 ````
- 
+   
 <style>
   <!--   Change navigation next prev  left position   -->
 	.orbit-container .orbit-prev  {
