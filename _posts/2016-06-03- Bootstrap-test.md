@@ -23,7 +23,7 @@ featured: true
 </div>
 </section><!-- /#table-of-contents -->
    
-### Bootstrap buttons
+## Bootstrap buttons
 
  <div class="small-7 small-centered columns"> 
   <button type="button" class="btn btn-default">Default</button>
@@ -38,7 +38,7 @@ featured: true
  </div>
    
   
-### Jumbotron
+## Jumbotron
 
  <div class="small-7 small-centered columns"> 
    <div class="jumbotron">
@@ -50,7 +50,7 @@ featured: true
  
  
  
-### Bootstrap Dropdowns 
+## Bootstrap Dropdowns 
 
 The .dropdown class is used to indicate a dropdown menu.
 Use the .dropdown-menu class to actually build the dropdown menu.
