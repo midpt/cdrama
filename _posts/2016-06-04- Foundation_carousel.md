@@ -132,7 +132,13 @@ Snippet of the foundation image carousel code
      
   </div> <!-- end orbit container -->	
  <!-- </div>  <!-- small-9 small-centered columns --> -->
-
+<!-- Bullets -->
+<ol class="orbit-bullets">
+  <li data-orbit-slide-number="1"></li>
+  <li data-orbit-slide-number="2" class="active"></li>
+  <li data-orbit-slide-number="3"></li>
+  <li data-orbit-slide-number="4"></li>
+  </ol>
 
  <!--  End  Foundation Image Carousel   2-->	  
   
