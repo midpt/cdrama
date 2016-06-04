@@ -12,6 +12,16 @@ chart:
 comments: false
 featured: true
 ---
+<style>
+.orbit-prev span {
+left:+100px;
+}
+.orbit-next span {
+left:-100px;
+}
+
+</style>
+
 ### Overview
 
 I have not been successfull using Bootstrap Image Carousel, however, Foundation image carousel seems to work very well.
@@ -76,11 +86,11 @@ Snippet of the foundation image carousel code
 	</div>
    </div>
    
-     <!--  The following image slider navigations are optional.  However you can override them with your own next prev symbols and pos  -->
+   <!--  The following image slider navigations are optional.  However you can override them with your own next prev symbols and pos 
      <a href="#" class="orbit-prev" style="left:+100px"><span></span></a>
      <a href="#" class="orbit-next"style="right:-100px"><span></span></a>
 
-   
+    -->
    
  <!--  End  Foundation Image Carousel   1-->	 
   
