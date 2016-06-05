@@ -17,7 +17,7 @@ featured: true
 <h3 >Table of content</h3>
 
 
-1 This line must be an ordered line. It can start with an asterisk or just a  number
+* This line must be an ordered line. It can start with an asterisk or just a  number
 {:toc}
 
  
