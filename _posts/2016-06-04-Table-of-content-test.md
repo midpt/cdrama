@@ -34,7 +34,7 @@ Notice that the line with `*`, the content is irrelevant. However, it should be 
 	    
 {% endhighlight %}
  
-Preceded with a line number will result a list of ordered table of content.
+Preceded with a line number will result in a list of ordered table of content.
 
 {% highlight html %}
   1. sdljdsklflksflksj
