@@ -27,24 +27,8 @@ featured: true
 First use Markdown heading (by preceding each headline with one or more hack symbols `#` or `##` etc)
 Now insert the following line of codes at the top of your page (just after the front matter) like so.
 
-{% highlight %}
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3 >Contents</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section>
 
-{% endhighlight %}
 
-    
-
-     
- 
- 
 ## MarkdownPad2
 The earliest windows standalone editor with viewer.
 It has most of the basic feature
