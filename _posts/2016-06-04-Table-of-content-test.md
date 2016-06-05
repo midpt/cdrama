@@ -21,7 +21,7 @@ featured: true
 {:toc}
 </div>
 </section><!-- /#table-of-contents -->
-
+ 
 ## How to generate table of content
 
 First use Markdown heading (by preceding each headline with one or more hack symbols `#` or `##` etc)
