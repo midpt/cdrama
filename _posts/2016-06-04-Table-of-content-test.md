@@ -12,15 +12,14 @@ chart:
 comments: false
 featured: true
 ---
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3 >Contents</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
+
+
+ <h3 >Contents</h3>
+
+
+1 This line must be an ordered line. It can start with an asterisk or just a  number
 {:toc}
-</div>
-</section><!-- /#table-of-contents -->
+
  
 ## How to generate table of content
 
