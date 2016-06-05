@@ -16,6 +16,7 @@ featured: true
   
 Accordian enables you to create collapsible headlines like the one shown below.
 
+<div class="small-7 small-centered columns"> 
 <dl class="accordion" data-accordion>
   <dd class="accordion-navigation">
     <a href="#panel1a">Accordion 1</a>
@@ -36,6 +37,7 @@ Accordian enables you to create collapsible headlines like the one shown below.
     </div>
   </dd>
 </dl>
+</div>
    
 
      
