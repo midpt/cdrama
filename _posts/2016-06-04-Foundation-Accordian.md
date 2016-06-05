@@ -12,7 +12,7 @@ chart:
 comments: false
 featured: true
 ---
-    
+      
 ### Accordian
 
 Accordian enables you to create collapsible content just like the one shown below.
