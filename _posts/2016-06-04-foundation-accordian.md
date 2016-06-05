@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Foundation Accordian"
-description: 
+description: "Collapsible headlines"
 headline: 
 modified: 2016-06-02
 category: webdevelopment
