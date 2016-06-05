@@ -97,7 +97,7 @@ You can access Strapdown in `D:\strapdown`
 
 ## Notepad++
 You can edit markdown document in Notepad++ by making changes to userDefineLang.xml file
-For my current Notepad++, the xml file to edit is at `C:\Users\G56JR\AppData\Roaming\Notepad++` 
+For my current Notepad++, the xml file to edit is at `C:\Users\username\AppData\Roaming\Notepad++` 
 The code to be inserted to userDefineLang.xml can be found at `D:\download\markdown_npp_zenburn-master`
 To edit document in markdown, select `Language>Markdown`
 Search Notepad++ in Evernote for detail setup.
