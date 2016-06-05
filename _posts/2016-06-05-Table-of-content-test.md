@@ -22,6 +22,23 @@ featured: true
 </div>
 </section><!-- /#table-of-contents -->
 
+## How to generate table of content
+
+First use Markdown heading (by preceding each headline with one or more hack symbols `#` or `##`)
+Now insert the following line of codes at the top of your page (just after the front matter) like so.
+
+{% highlight %}
+<section id="table-of-contents" class="toc">
+  <header>
+    <h3 >Contents</h3>
+  </header>
+<div id="drawer" markdown="1">
+*  Auto generated table of contents
+{:toc}
+</div>
+</section>
+
+{% endhighlight %}
 
 
 {:toc}
