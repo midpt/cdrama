@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Table of content test out"
+title: "Testing out Table of content"
 description: "Testing of table of content using Markdown"
 headline: 
 modified: 2016-06-05
@@ -41,7 +41,7 @@ Now insert the following line of codes at the top of your page (just after the f
 {% endhighlight %}
 
 
-{:toc}
+
      
  
  
