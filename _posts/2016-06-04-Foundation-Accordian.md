@@ -17,7 +17,7 @@ featured: true
 
 ### Accordian
 
-Accordian enables you to create collapsible headline content just like the one shown below.
+Accordian enables you to create collapsible content just like the one shown below.
 
 <div class="small-9 small-centered columns">
 <ul class="accordion" data-accordion>
