@@ -45,22 +45,22 @@ Preceded with a line number will result in a list of ordered table of content.
 
 ## MarkdownPad2
 The earliest windows standalone editor with viewer.
-It has most of the basic feature
-Advance features such as Table of Content, code fencing block etc require Pro version which is around US$14.90
-This app was installed in `d:\markdown`
+It has most of the basic features. 
+Advance features such as Table of Content, code fencing block etc require a Pro version which is around US$14.90
+
 
 ## MultiMarkdown
 It is a command console utility that can convert markdown to HTML, RTF,  OPML, or OpenDocument.
-This utility was installed in `C:\Program Files (x86)\MultiMarkdown 5.0.1\bin`
-MultiMarkdown has problem running.  Don't seem to be able to have the right to create output file in program files (x86)
-**Not impress with MultiMarkdown** and now it has problem uninstalling.
-For converting from Markdown to Words, **use online Markable**.
+Encountered running MultiMarkdown. 
+Don't seem to have the right to create output file in program files (x86)
+**Not impress with MultiMarkdown**, uninstalling also failed.
+For converting from Markdown to Words, is better to use **online Markable**.
 
 
 ## WriteMonkey
 This is a barebone markdown editor.  It is a clean blank editor with no user interface.  You can right-click to access its menu.
-The is no built-in menu
-This app was installed in `D:\WriteMonkey`
+There is no built-in menu
+
 
 ## Strapdown
 This is an html file version using external or internal javascript reference.
@@ -75,7 +75,7 @@ The file must have an .html extension.
 > 
 
 
-You start the html with a minimum html just like so.
+You start the html with a minimum html, like so.
 
 ~~~
 <!DOCTYPE html>
@@ -98,12 +98,12 @@ You can edit markdown document in Notepad++ by making changes to userDefineLang.
 For my current Notepad++, the xml file to edit is at `C:\Users\username\AppData\Roaming\Notepad++` 
 The code to be inserted to userDefineLang.xml can be found at `D:\download\markdown_npp_zenburn-master`
 To edit document in markdown, select `Language>Markdown`
-Search Notepad++ in Evernote for detail setup.
+
 
 **Note: I have removed Notepad++ markdown module in userDefineLang.xml as they are unreliable.
 
 ## ✔ Haroopad
-Currently this **is the best Windows markdown editor and viewer**.
+Currently this is **the best Windows markdown editor and viewer**.
 It supports
 
 1.  Table
