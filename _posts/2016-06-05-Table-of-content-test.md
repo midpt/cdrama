@@ -24,7 +24,7 @@ featured: true
 
 ## How to generate table of content
 
-First use Markdown heading (by preceding each headline with one or more hack symbols `#` or `##`)
+First use Markdown heading (by preceding each headline with one or more hack symbols `#` or `##` etc)
 Now insert the following line of codes at the top of your page (just after the front matter) like so.
 
 {% highlight %}
