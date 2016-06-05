@@ -13,8 +13,6 @@ comments: false
 featured: true
 ---
     
-{:toc}
-
 ### Accordian
 
 Accordian enables you to create collapsible content just like the one shown below.
