@@ -5,9 +5,6 @@ description: "Home of Cantonese opera"
 headline: Drama life style
 tags: [cantonese, opera, instrument, show, skill, prop]
 ---
-     
-          
-
 {% if site.paginate %}
 	{% for post in paginator.posts %}
     <article class="notepad-index-post post row">
@@ -43,15 +40,8 @@ tags: [cantonese, opera, instrument, show, skill, prop]
         </div>
     </article>
 	{% endfor %}
-	
-	
-
-	
-
     <nav class="pagination" role="navigation">
-
     {% if paginator.previous_page %}
-
 	    {% if paginator.previous_page == 1 %}
 	    <a class="newer-posts" href="{{ site.url }}"><i class="fa fa-chevron-left"></i> Newer</a>
 	    {% else %}
@@ -68,9 +58,7 @@ tags: [cantonese, opera, instrument, show, skill, prop]
     	{% else %}
     	<span class="older-posts faded">Older <i class="fa fa-chevron-right"></i></span>
     	{% endif %}
-
 	</nav>
-      
 {% else %}
 	{% for post in site.posts %}
     <article class="notepad-index-post post row">
@@ -107,4 +95,3 @@ tags: [cantonese, opera, instrument, show, skill, prop]
     </article>
 	{% endfor %}  
 {% endif %}
-
