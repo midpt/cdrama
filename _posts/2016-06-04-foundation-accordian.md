@@ -39,8 +39,8 @@ Accordian enables you to create collapsible headlines like the one shown below.
 </dl>
 </div>
    
-### How to use HTML markups to create Foundation Accordian
-
+### How to create Foundation Accordian
+ 
 You need to use 'dl' and 'dd' tags with the following attribute classes.
 
 {% highlight html %}
