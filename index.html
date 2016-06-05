@@ -46,10 +46,11 @@ tags: [cantonese, opera, instrument, show, skill, prop]
 	
 	
 
- 	
+	
 	
     <nav class="pagination" role="navigation">
     {% if paginator.previous_page %}
+	 <div class="small-7 small-centered columns"> 
 	    {% if paginator.previous_page == 1 %}
 	    <a class="newer-posts" href="{{ site.url }}"><i class="fa fa-chevron-left"></i> Newer</a>
 	    {% else %}
@@ -67,6 +68,7 @@ tags: [cantonese, opera, instrument, show, skill, prop]
     	<span class="older-posts faded">Older <i class="fa fa-chevron-right"></i></span>
     	{% endif %}
 	</nav>
+	</div>
 {% else %}
 	{% for post in site.posts %}
     <article class="notepad-index-post post row">
