@@ -23,15 +23,16 @@ featured: true
  
 ## How to generate table of content
 
-First use Markdown heading (by preceding each headline with one or more hack symbols `#` or `##` etc)
-Now insert the following line of codes.  
+First use Markdown heading (by preceding each headline with one or more hack symbols `#` or `##` etc).
+Next insert the following line of codes.  
 Notice that the line with `*`, the content is irrelevant. However, it should be preceded with asterisk or a number end with a dot.
 
 
- {% raw %}
-  * sdljdsklflksflksj
-  {:toc}
- {% endraw %}
+{% highlight %}
+  `* sdljdsklflksflksj`
+    {% raw %} {:toc}   {% endraw %}
+{% endhighlight %}
+
 
 ## MarkdownPad2
 The earliest windows standalone editor with viewer.
