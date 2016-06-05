@@ -25,12 +25,21 @@ featured: true
 
 First use Markdown heading (by preceding each headline with one or more hack symbols `#` or `##` etc).
 Next insert the following line of codes.  
-Notice that the line with `*`, the content is irrelevant. However, it should be preceded with asterisk or a number end with a dot.
+Notice that the line with `*`, the content is irrelevant. However, it should be preceded with asterisk or a number ends with a dot.
 
   
 {% highlight html %}
-  `*` sdljdsklflksflksj
+  * sdljdsklflksflksj
     {% raw %} {:toc}   {% endraw %}
+	
+{% endhighlight %}
+
+Preceded with a line number will result a list of ordered table of content.
+
+{% highlight html %}
+  1. sdljdsklflksflksj
+    {% raw %} {:toc}   {% endraw %}
+	
 {% endhighlight %}
 
 
