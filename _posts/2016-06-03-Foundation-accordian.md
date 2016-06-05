@@ -3,7 +3,7 @@ layout: post
 title: "Foundation Accordian"
 description: "Text control tool"
 headline: 
-modified: 2016-06-04
+modified: 2016-06-03
 category: webdevelopment
 tags: [foundation, accordian]
 imagefeature: 
