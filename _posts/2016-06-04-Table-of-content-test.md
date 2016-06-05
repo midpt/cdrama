@@ -17,16 +17,21 @@ featured: true
 <h3 >Table of content</h3>
 
 
-1. This line must be an ordered or unordered line. It can start with an asterisk or just a  number. Does not matter with the content
+1. slkfjsld
 {:toc}
-
+ 
  
 ## How to generate table of content
 
 First use Markdown heading (by preceding each headline with one or more hack symbols `#` or `##` etc)
-Now insert the following line of codes at the top of your page (just after the front matter) like so.
+Now insert the following line of codes.  
+Notice that the line with `*`, the content is irrelevant. However, it should be preceded with asterisk or a number end with a dot.
 
 
+ {% raw %}
+  * sdljdsklflksflksj
+  {:toc}
+ {% endraw %}
 
 ## MarkdownPad2
 The earliest windows standalone editor with viewer.
