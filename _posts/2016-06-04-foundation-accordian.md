@@ -64,5 +64,5 @@ You need to use 'dl' and 'dd' tags with the following attribute classes.
     </div>
   </dd>
 </dl>
-{% endhighlight%}
+{% endhighlight %}
      
