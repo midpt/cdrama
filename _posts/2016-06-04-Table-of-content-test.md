@@ -31,9 +31,9 @@ Notice that the line with `*`, the content is irrelevant. However, it should be 
 {% highlight html %}
   * sdljdsklflksflksj
     {% raw %} {:toc}   {% endraw %}
-	
+	    
 {% endhighlight %}
-
+ 
 Preceded with a line number will result a list of ordered table of content.
 
 {% highlight html %}
