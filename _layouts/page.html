@@ -30,25 +30,27 @@ Description: Awesome dude, awesome life
                         <img src="{{ site.url }}/images/{{ site.logo }}" alt="Blog Logo">
                     </a>
                 
-                
-                
-                <div class="notepad-blog-menu">      
-    <div class="notepad-mobile-menu show-for-small">
-        <a href="#"><i class="fa fa-bars"></i></a>
-    </div>
-    <ul class="notepad-menu">
-        <li class="notepad-mobile-close-btn show-for-small text-right">
-            <a href="#"><i class="fa fa-times"></i></a>
-        </li>
-{% for link in site.links %}
-            <li>{% if link.external %}
-                    <a href="{{ link.url }}">{{ link.title }}</a>
-                {% else %}
-                    <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
-                {% endif %} </li>
-{% endfor %}            
-    </ul>
-</div>
+            
+            <div class="notepad-blog-menu">  
+                <!-- on small mobile device, 3-horizontal lines will be shown to replace those menus text -->			
+				<div class="notepad-mobile-menu show-for-small">
+					<a href="#"><i class="fa fa-bars"></i></a>
+				</div>
+				<ul class="notepad-menu">
+					<li class="notepad-mobile-close-btn show-for-small text-right">
+						<a href="#"><i class="fa fa-times"></i></a>
+					</li>
+			         {% for link in site.links %}
+						<li>{% if link.external %}
+								<a href="{{ link.url }}">{{ link.title }}</a>
+							{% else %}
+								<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+							{% endif %} 
+						</li>
+			         {% endfor %}            
+				</ul>
+			</div>
+			
             </div>
             <div class="notepad-page-title row">
                 <div class="small-12 columns">
