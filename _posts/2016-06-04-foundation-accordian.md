@@ -41,7 +41,8 @@ Accordian enables you to create collapsible headlines like the one shown below.
    
 ### How to create Foundation Accordian
     
-You need to use 'dl' and 'dd' (for Foundation version 5, you can use 'ul' and 'li' tags) tags with the following attribute classes.
+You need to use 'dl' and 'dd' tags with the following attribute classes.
+For Foundation version 5.5 or greater, you can use 'ul' and 'li' tags.
 
 {% highlight html %}
 <dl class="accordion" data-accordion>
