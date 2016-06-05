@@ -123,7 +123,7 @@ It supports
 15.  Export Styled HTML is exported to clipboard.
 16.  Support some of the Windows soft keyboard emojis ❤ ™ ❄↗↘➡↖↕↔↙♐♓♒♋⌚♎♊
 
-
+  
 
 **Drawbacks**
 
