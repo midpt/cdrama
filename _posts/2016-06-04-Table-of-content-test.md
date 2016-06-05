@@ -27,7 +27,7 @@ First use Markdown heading (by preceding each headline with one or more hack sym
 Next insert the following line of codes.  
 Notice that the line with `*`, the content is irrelevant. However, it should be preceded with asterisk or a number end with a dot.
 
-
+  
 {% highlight %}
   `* sdljdsklflksflksj`
     {% raw %} {:toc}   {% endraw %}
