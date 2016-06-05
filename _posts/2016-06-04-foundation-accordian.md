@@ -12,7 +12,7 @@ chart:
 comments: false
 featured: true
 ---
-### Accordian
+### Foundation Accordian
     
 Accordian enables you to create collapsible headlines like the one shown below.
 
@@ -39,5 +39,30 @@ Accordian enables you to create collapsible headlines like the one shown below.
 </dl>
 </div>
    
+### How to use HTML markups to create Foundation Accordian
 
+You need to use 'dl' and 'dd' tags with the following attribute classes.
+
+{% highlight html %}
+<dl class="accordion" data-accordion>
+  <dd class="accordion-navigation">
+    <a href="#panel1a">Accordion 1</a>
+    <div id="panel1a" class="content active">
+          Content of accordian 1
+    </div>
+  </dd>
+  <dd class="accordion-navigation">
+    <a href="#panel2a">Accordion 2</a>
+    <div id="panel2a" class="content">
+          Content of accordian 2
+    </div>
+  </dd>
+  <dd class="accordion-navigation">
+    <a href="#panel3a">Accordion 3</a>
+    <div id="panel3a" class="content">
+           Content of accordian 3
+    </div>
+  </dd>
+</dl>
+{% endhighlight%}
      
