@@ -40,7 +40,7 @@ Accordian enables you to create collapsible headlines like the one shown below.
 </div>
    
 ### How to create Foundation Accordian
- 
+    
 You need to use 'dl' and 'dd' (for Foundation version 5, you can use 'ul' and 'li' tags) tags with the following attribute classes.
 
 {% highlight html %}
