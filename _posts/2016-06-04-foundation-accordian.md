@@ -13,7 +13,7 @@ comments: false
 featured: true
 ---
 ### Accordian
-  
+    
 Accordian enables you to create collapsible headlines like the one shown below.
 
 <div class="small-7 small-centered columns"> 
