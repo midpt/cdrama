@@ -14,7 +14,7 @@ featured: true
 ---
 ### Markdown fence code block
   
-When writing markdown in Github Jekyll page, do not use back-tick fenced code, instead use {% raw %} {% highlight html%}.... {% endhighlight%} {% endraw%} block as shown below.
+When writing markdown in Github Jekyll page, to have syntax highlighting code, use {% raw %} {% highlight html%}.... {% endhighlight%} {% endraw%} block as shown below.
 
 {% highlight html %}
 {% raw %}{% highlight html %} {% endraw%} 
