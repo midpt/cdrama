@@ -40,7 +40,7 @@ tags: [cantonese, opera, instrument, show, skill, prop]
         </div>
     </article>
 	{% endfor %}
-    <nav class="pagination-centered" role="menubar" >
+    <nav class="pagination-centered" role="navigation" >
 
     {% if paginator.previous_page %}
 	    {% if paginator.previous_page == 1 %}
@@ -61,6 +61,8 @@ tags: [cantonese, opera, instrument, show, skill, prop]
     {% endif %}
  
 	</nav>
+	<br/>
+	
 {% else %}
 	{% for post in site.posts %}
     <article class="notepad-index-post post row">
