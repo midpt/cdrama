@@ -32,7 +32,7 @@ When writing markdown in Github Jekyll page, to have syntax highlighting code, u
 ### Literally display liquid code double braces instead of parsing the object	 
 
 Sometimes you may want to literally display double-brace liquid code instead of letting Jekyll render its output.
-In this situation embed the liquid code with 
+In this situation embed the liquid code with `{% raw %}` and `{% endraw %}`
 
 
   
