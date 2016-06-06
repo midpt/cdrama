@@ -44,20 +44,20 @@ tags: [cantonese, opera, instrument, show, skill, prop]
 
     {% if paginator.previous_page %}
 	    {% if paginator.previous_page == 1 %}
-	    <a class="newer-posts" href="{{ site.url }}"><i class="fa fa-chevron-left"></i> Newer</a>
+	<center>    <a class="newer-posts" href="{{ site.url }}"><i class="fa fa-chevron-left"></i> Newer</a>  </center>
 	    {% else %}
-	    <a class="newer-posts" href="{{ site.url }}/page{{ paginator.previous_page }}"><i class="fa fa-chevron-left"></i> Newer</a>
+	<center>  	    <a class="newer-posts" href="{{ site.url }}/page{{ paginator.previous_page }}"><i class="fa fa-chevron-left"></i> Newer</a> </center>
 	    {% endif %}
 	{% else %}
-    <span class="newer-posts faded"><i class="fa fa-chevron-left"></i> Newer</span>
+	<center>      <span class="newer-posts faded"><i class="fa fa-chevron-left"></i> Newer</span> </center>
     {% endif %}
 
     
     <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
     	{% if paginator.next_page %} 
-        <a class="older-posts" href="{{ site.url }}/page{{ paginator.next_page }}/">Older <i class="fa fa-chevron-right"></i></a>
+ 	<center>         <a class="older-posts" href="{{ site.url }}/page{{ paginator.next_page }}/">Older <i class="fa fa-chevron-right"></i></a> </center>
     	{% else %}
-    	<span class="older-posts faded">Older <i class="fa fa-chevron-right"></i></span>
+	<center>      	<span class="older-posts faded">Older <i class="fa fa-chevron-right"></i></span> </center>
     	{% endif %}
 
 	</nav>
