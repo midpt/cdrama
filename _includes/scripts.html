@@ -19,18 +19,10 @@
 	    
   </script>
 	
+{% for js in page.pgReadyJs %}
+	<script  async type="text/javascript" src="{{ site.url }}/assets/js/{{js}}"></script>
 
-	<script  async type="text/javascript">
-		$('.flexslider' ).load(function() {
-
-			console.log("Post flexi-page loaded");
-			alert("flexi loaded");
-			  $('.flexslider').flexslider({
-				animation: "slide",
-				controlNav: "thumbnails"
-			  });
- 	    });
-	 </script>
+{% endfor %}
 
 	
     <script type='text/javascript'>console.log("HMFaysal Notepad Theme Version 2.0");</script>
