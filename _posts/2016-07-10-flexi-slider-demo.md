@@ -34,10 +34,11 @@ featured: true
 </div>
 </section>
 
-
+<Script>
 $(document).ready(function() {
   $('.flexslider').flexslider({
 	animation: "slide",
 	controlNav: "thumbnails"
   });
 });
+</script>
