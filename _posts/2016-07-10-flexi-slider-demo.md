@@ -17,7 +17,7 @@ flexi-loaded:true;
 
 ### Picture carousel using Flexi-slider
 
-page.flexi-loaded:  {{page.flexi-loaded}}
+page.flexi-loaded=  {{page.flexi-loaded}}
 
 <section class="slider">
 <div class="flexslider">
