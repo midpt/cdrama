@@ -17,19 +17,19 @@ featured: true
 ### Picture carousel using Flexe-slider
 
 
-      <section class="slider">
-        <div class="flexslider">
-          <ul class="slides">
-            <li data-thumb="../images/fc1-th.jpg">
-  	    	    <img src="../images/fc1.jpg" />
-  	    		</li>
-  	    		<li data-thumb="../images/fc2-th.jpg">
-  	    	    <img src="../images/fc2.jpg" />
-  	    		</li>
-  	    		<li data-thumb="../images/fc3-th.jpg">
-  	    	    <img src="../images/fc3.jpg" />
-  	    		</li>
+<section class="slider">
+<div class="flexslider">
+  <ul class="slides">
+	<li data-thumb="../images/fc1-th.jpg">
+		<img src="../images/fc1.jpg" />
+		</li>
+		<li data-thumb="../images/fc2-th.jpg">
+		<img src="../images/fc2.jpg" />
+		</li>
+		<li data-thumb="../images/fc3-th.jpg">
+		<img src="../images/fc3.jpg" />
+		</li>
 
-          </ul>
-        </div>
-      </section>
+  </ul>
+</div>
+</section>
