@@ -20,7 +20,7 @@ flexipage-loaded:true
 Testing of front matter variable
 
 
-page.flexi-loaded=  {{page.flexi-loaded}}
+
 
 <section class="slider">
 <div class="flexslider">
