@@ -34,7 +34,7 @@ featured: true
 </div>
 </section>
 
-<Script>
+<Script type="text/javascript">
 $(document).ready(function() {
   $('.flexslider').flexslider({
 	animation: "slide",
