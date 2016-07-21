@@ -11,6 +11,7 @@ mathjax:
 chart: 
 comments: false
 featured: true
+flexi-loaded:true;
 ---
 
 
@@ -35,10 +36,11 @@ featured: true
 </section>
 
 <Script type="text/javascript">
-$(document).ready(function() {
+if (flexi-loaded){
+alert("loaded");
   $('.flexslider').flexslider({
 	animation: "slide",
 	controlNav: "thumbnails"
   });
-});
+}
 </script>
