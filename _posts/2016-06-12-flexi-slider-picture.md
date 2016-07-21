@@ -11,7 +11,7 @@ mathjax:
 chart: 
 comments: false
 featured: true
-flexipage-loaded:true
+flexiPageLoaded: true
 ---
 
 
