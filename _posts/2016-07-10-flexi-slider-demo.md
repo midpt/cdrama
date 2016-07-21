@@ -11,11 +11,14 @@ mathjax:
 chart: 
 comments: false
 featured: true
-flexi-loaded:true;
+flexi-loaded:true
 ---
 
 
 ### Picture carousel using Flexi-slider
+
+Testing of front matter variable
+
 
 page.flexi-loaded=  {{page.flexi-loaded}}
 
