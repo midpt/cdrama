@@ -20,7 +20,7 @@ featured: true
 <section class="slider">
 <div class="flexslider">
   <ul class="slides">
-	<li data-thumb="../images/fc1-th.jpg">
+	    <li data-thumb="../images/fc1-th.jpg">
 		<img src="../images/fc1.jpg" />
 		</li>
 		<li data-thumb="../images/fc2-th.jpg">
@@ -33,3 +33,14 @@ featured: true
   </ul>
 </div>
 </section>
+
+
+<script>
+$(window).load(function() {
+  $('.flexslider').flexslider({
+	animation: "slide",
+	controlNav: "thumbnails"
+  });
+});
+
+</script>
