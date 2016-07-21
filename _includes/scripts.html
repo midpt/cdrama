@@ -16,24 +16,22 @@
 
     <script>
       $(document).foundation();
-	  
-alert("loading scripts.html");	  
-	  
-    </script>
+	    
+  </script>
 	
-	{% if flexiPageLoaded %}
+
 	<script>
-		$( document ).ready(function() {
+		$('.flexslider' ).load(function() {
 
 			console.log("Post flexi-page loaded");
-			//alert("flexi loaded");
+			alert("flexi loaded");
 			  $('.flexslider').flexslider({
 				animation: "slide",
 				controlNav: "thumbnails"
 			  });
  	    });
 	 </script>
-     {% endif %}
+
 	
     <script type='text/javascript'>console.log("HMFaysal Notepad Theme Version 2.0");</script>
     <script type='text/javascript'>console.log("https://alum.mit.edu/www/hmfaysal");</script>
