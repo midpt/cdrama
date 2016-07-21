@@ -14,7 +14,7 @@ featured: true
 ---
 
 
-### Picture carousel using Flexe-slider
+### Picture carousel using Flexi-slider
 
 
 <section class="slider">
@@ -35,12 +35,9 @@ featured: true
 </section>
 
 
-<script>
-$(window).load(function() {
+$(document).ready(function() {
   $('.flexslider').flexslider({
 	animation: "slide",
 	controlNav: "thumbnails"
   });
 });
-
-</script>
