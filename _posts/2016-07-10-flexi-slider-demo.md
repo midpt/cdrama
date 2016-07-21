@@ -36,7 +36,7 @@ flexi-loaded:true;
 </section>
 
 <Script type="text/javascript">
-if (flexi-loaded){
+if ({{page.flexi-loaded}}){
 alert("loaded");
   $('.flexslider').flexslider({
 	animation: "slide",
