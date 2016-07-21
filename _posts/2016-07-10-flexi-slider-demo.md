@@ -11,7 +11,7 @@ mathjax:
 chart: 
 comments: false
 featured: true
-flexi-loaded:true
+flexipage-loaded:true
 ---
 
 
@@ -39,12 +39,3 @@ page.flexi-loaded=  {{page.flexi-loaded}}
 </div>
 </section>
 
-<Script type="text/javascript">
-if ({{page.flexi-loaded}}){
-alert("loaded");
-  $('.flexslider').flexslider({
-	animation: "slide",
-	controlNav: "thumbnails"
-  });
-}
-</script>

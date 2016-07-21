@@ -14,6 +14,18 @@
     <script>
       $(document).foundation();
     </script>
+	
+	{% if flexipage-loaded %}
+		$( document ).ready(function() {
+
+			console.log("Post flexi-page loaded");
+			  $('.flexslider').flexslider({
+				animation: "slide",
+				controlNav: "thumbnails"
+			  });
+ 	    });
+     {% endif %}
+	
     <script type='text/javascript'>console.log("HMFaysal Notepad Theme Version 2.0");</script>
     <script type='text/javascript'>console.log("https://alum.mit.edu/www/hmfaysal");</script>
 
