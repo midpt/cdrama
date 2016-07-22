@@ -16,19 +16,20 @@
 
 	    <!-- flexislider for picture carousel   -->
 	<script src="{{ site.url }}/assets/js/jquery.flexslider.js"></script>
-	
-	
-	
+		
     <script>
-      $(document).foundation();
-	    
-  </script>
-	
+      $(document).foundation();    
+    </script>
+<!-- 	
 {% for js in page.pgReadyJs %}
 	<script  async type="text/javascript" src="{{ site.url }}/assets/js/{{js}}"></script>
 
 {% endfor %}
+ -->
 
+{% if page.flexiPageLoaded %}
+	<script  async type="text/javascript" src="{{ site.url }}/assets/js/myFlexi-picture-carousel.js"></script>
+{% endif %}
 
 
 {% if site.google_analytics %}
