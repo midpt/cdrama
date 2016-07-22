@@ -3,7 +3,7 @@
 
 
 console.log("Post flexi-page loaded");
-alert("flexi LOADED");
+alert("flexi FLEXI LOADED");
   $('.flexslider').flexslider({
 	animation: "slide"
 
