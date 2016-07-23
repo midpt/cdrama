@@ -8,6 +8,7 @@ html {
 }
 
 body {
+/*
   _width: 70%;
   color: #888;
   font: 14px/20px Helvetica, Arial, sans-serif;
@@ -16,12 +17,15 @@ body {
   text-align: center;
   text-shadow: 0 -2px 1px #000;
   -webkit-font-smoothing: antialiased;
+  */
   }
 
 h1 {
+/*
   font: 40px/60px "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
   font-weight: 200;
+   */
   }
 
 h2 {
