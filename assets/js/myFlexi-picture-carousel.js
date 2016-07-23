@@ -7,7 +7,7 @@ alert("flexi FLEXI LOADED");
       // Slideshow 4
       $("#slider4").responsiveSlides({
         auto: false,
-        pager: true,
+        pager: false,
         nav: true,
         speed: 500,
         namespace: "callbacks",
