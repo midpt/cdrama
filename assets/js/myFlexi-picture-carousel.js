@@ -6,7 +6,7 @@ console.log("Post flexi-page loaded");
 alert("flexi FLEXI LOADED");
       // Slideshow 4
       $("#slider4").responsiveSlides({
-        auto: true,
+        auto: false,
         pager: true,
         nav: true,
         speed: 500,
