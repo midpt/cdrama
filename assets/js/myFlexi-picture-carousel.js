@@ -17,4 +17,4 @@ alert("flexi FLEXI LOADED");
         after: function () {
           $('.events').append("<li>after event fired.</li>");
         }
-      });
+      });   
