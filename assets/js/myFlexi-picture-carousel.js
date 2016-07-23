@@ -6,8 +6,8 @@ console.log("Post flexi-page loaded");
 alert("flexi FLEXI LOADED");
       // Slideshow 4
       $("#slider4").responsiveSlides({
-        auto: false,
-        pager: false,
+        auto: true,
+        pager: true,
         nav: true,
         speed: 500,
         namespace: "callbacks",
