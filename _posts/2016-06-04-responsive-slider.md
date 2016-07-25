@@ -19,7 +19,7 @@ pgReadyJs:
 
 ### Picture  carousel -  using Slippry Sliders 111------!!
 
-
+<section class="demo_wrapper">
 <a href="#glob" class='prev'>Prev</a> / <a href="#glob" class='next'>Next</a> 
 
 <ul id="demo1">
@@ -36,5 +36,5 @@ pgReadyJs:
 		</a>
 	</li>
 </ul>
-
+</section>
 
