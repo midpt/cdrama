@@ -13,7 +13,14 @@ comments: false
 featured: true
 slippryLoaded: true
 ---
+<style>
 
+body{
+background-image: url('{{ site.url }}/images/orient1.png'); 
+background-repeat:repeat;  
+}
+
+</style>
 
 ### Picture  carousel -  using Slippry Sliders 
 
