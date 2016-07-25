@@ -34,7 +34,7 @@ slippryLoaded: true
 		</a>
 	</li>
 </ul>
-<center><a href="#glob" class='prev'>Prev</a> / <a href="#glob" class='next'>Next</a> </center>
+<center><a href="#glob" class='prev'>Prev</a> / <a href="#glob" class='next'>Next</a> </center> <br/>
 
 </section>
 
