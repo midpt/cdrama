@@ -3,7 +3,7 @@
 
 
 console.log("Post Slippery loaded");
-alert("Slippry slider LOADED");
+//alert("Slippry slider LOADED");
 			var demo1 = $("#demo1").slippry({
 					 transition: 'fade',
 					// useCSS: true,
