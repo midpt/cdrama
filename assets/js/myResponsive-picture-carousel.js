@@ -21,6 +21,7 @@ alert("Slippry slider LOADED");
 				$('.start').click(function () {
 					demo1.startAuto();
 				});
+				 */
 
 				$('.prev').click(function () {
 					demo1.goToPrevSlide();
@@ -30,6 +31,7 @@ alert("Slippry slider LOADED");
 					demo1.goToNextSlide();
 					return false;
 				});
+/*				
 				$('.reset').click(function () {
 					demo1.destroySlider();
 					return false;
