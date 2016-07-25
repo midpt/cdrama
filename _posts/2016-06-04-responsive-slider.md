@@ -11,38 +11,21 @@ mathjax:
 chart: 
 comments: false
 featured: true
-RespondSliderLoaded: true
+slippryLoaded: true
 pgReadyJs:
   - myFlexi-picture-carousel.js
 ---
 
 
-### Picture  carousel -  using Responsive Sliders 222------!!
+### Picture  carousel -  using Slippry Sliders 111------!!
 
 
-flexiPageLoaded :  {{page.flexiPageLoaded}}
 
 
-<div id="wrapper">
-	<div class="callbacks_container">
-	  <ul class="rslides" id="slider4">
-		<li>
-		  <img src="{{ site.url }}/images/kitchen_adventurer_cheesecake_brownie.jpg" alt="">
-		  <p class="caption">This is a caption 1</p>
-		</li>
-		<li>
-		  <img src="{{ site.url }}/images/kitchen_adventurer_lemon.jpg" alt="">
-		  <p class="caption">This is another caption</p>
-		</li>
-		<li>
-		  <img src="{{ site.url }}/images/kitchen_adventurer_donut.jpg"  alt="">
-		  <p class="caption">The third caption</p>
-		</li>
-	  </ul>
-	</div>
+<ul id="demo1">
+	<li><a href="#slide1"><img src="{{ site.url }}/images/kitchen_adventurer_cheesecake_brownie.jpg" alt="This is caption 1 <a href='#link'>Even with links!</a>"></a></li>
+	<li><a href="#slide2"><img src="{{ site.url }}/images/kitchen_adventurer_lemon.jpg" alt="This is caption 2"></a></li>
+	<li><a href="#slide3"><img src="{{ site.url }}/images/kitchen_adventurer_donut.jpg"  alt="And this is some very long caption for slide 3. Yes, really long."></a></li>
+</ul>
 
-    <!-- This is here just to demonstrate the callbacks -->
-    <ul class="events">
-      <li><h3>Example 4 callback events</h3></li>
-    </ul>
-</div>	
+

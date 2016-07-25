@@ -23,16 +23,10 @@
 	<script src="{{ site.url }}/assets/js/responsiveslides.js"></script>
    
 	
-<!-- 	
-{% for js in page.pgReadyJs %}
-	<script  async type="text/javascript" src="{{ site.url }}/assets/js/{{js}}"></script>
-
-{% endfor %}
- -->
 
  <!--  This is how your create document ready for markdown pages. flexiPageLoaded is my custom front matter variable which I set it to true in that page   -->
  
-{% if page.RespondSliderLoaded %}
+{% if page.slippryLoaded %}
 	<script   type="text/javascript" src="{{ site.url }}/assets/js/myResponsive-picture-carousel.js"></script>
 {% endif %}
 
