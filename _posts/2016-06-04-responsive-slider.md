@@ -22,7 +22,7 @@ slippryLoaded: true
 
 <ul id="demo1">
 	<li><a href="#slide1">
-	    <img src="{{ site.url }}/images/fc1.jpg alt="This is caption 1 <a href='#link'>Even with links!</a>">
+	    <img src="{{ site.url }}/images/fc1.jpg" alt="This is caption 1 <a href='#link'>Even with links!</a>">
 		</a>
 	</li>
 	<li><a href="#slide2">
