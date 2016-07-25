@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Flexi-slider picture carousel"
+title: "Responsive-slider picture carousel"
 description: "Test out flex-slider picture carousel"
 headline: 
 modified: 2016-06-10
@@ -11,7 +11,7 @@ mathjax:
 chart: 
 comments: false
 featured: true
-flexiPageLoaded: true
+RespondSliderLoaded: true
 pgReadyJs:
   - myFlexi-picture-carousel.js
 ---

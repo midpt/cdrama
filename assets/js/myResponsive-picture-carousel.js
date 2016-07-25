@@ -3,7 +3,7 @@
 
 
 console.log("Post flexi-page loaded");
-alert("flexi FLEXI LOADED");
+alert("Responsive slider LOADED");
       // Slideshow 4
       $("#slider4").responsiveSlides({
         auto: false,
