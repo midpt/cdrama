@@ -12,15 +12,13 @@ chart:
 comments: false
 featured: true
 slippryLoaded: true
-pgReadyJs:
-  - myFlexi-picture-carousel.js
 ---
 
 
-### Picture  carousel -  using Slippry Sliders 111------!!
+### Picture  carousel -  using Slippry Sliders 
 
 <section class="demo_wrapper">
-<a href="#glob" class='prev'>Prev</a> / <a href="#glob" class='next'>Next</a> 
+
 
 <ul id="demo1">
 	<li><a href="#slide1">
@@ -36,5 +34,7 @@ pgReadyJs:
 		</a>
 	</li>
 </ul>
+<center><a href="#glob" class='prev'>Prev</a> / <a href="#glob" class='next'>Next</a> </center>
+
 </section>
 
