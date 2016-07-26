@@ -11,6 +11,8 @@ console.log("Post Slippery loaded");
 					// pause: 3000,
 					// auto: true,
 					// preload: 'visible',
+					slippryWrapper: '<div class="sy-box portfolio-slider" />', // wrapper to wrap everything, including pager
+
 					 autoHover: false
 				});
 /*
