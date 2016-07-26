@@ -22,7 +22,7 @@ background-repeat:repeat;
 
 </style>
   
-### Picture  carousel -  using Slippry Sliders   
+### Picture  carousel -  using Slippry Sliders  111 
 
 <section class="demo_wrapper">
 
@@ -38,6 +38,10 @@ background-repeat:repeat;
 	</li>
 	<li><a href="#slide3">
 	    <img src="{{ site.url }}/images/kitchen_adventurer_donut.jpg"  alt="And this is some very long caption for slide 3. Yes, really long.">
+		</a>
+	</li>
+	<li><a href="#slide4">
+	    <img src="{{ site.url }}/images/fc3.jpg"  alt="slide 4">
 		</a>
 	</li>
 </ul>
