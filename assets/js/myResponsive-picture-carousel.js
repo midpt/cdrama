@@ -51,8 +51,8 @@ console.log("Post Slippery loaded");
 				 
 $("img").each(function()
 {
-    var maxWidth = 787; // Max width for the image
-    var maxHeight = 480;    // Max height for the image
+    var maxWidth = 320;//787; // Max width for the image
+    var maxHeight =240 ;//480;    // Max height for the image
     var ratio = 0;  // Used for aspect ratio
     var width = $(this).width();    // Current image width
     var height = $(this).height();  // Current image height
