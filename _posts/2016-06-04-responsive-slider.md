@@ -22,7 +22,7 @@ background-repeat:repeat;
 
 </style>
   
-### Picture  carousel -  using Slippry Sliders  88
+### Picture  carousel -  using Slippry Sliders  888
 
 <section class="demo_wrapper">
 
