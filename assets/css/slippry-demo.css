@@ -18,7 +18,7 @@ body {
 }
 @media only screen and (max-device-width: 800px), screen and (max-width: 800px) {
   .demo_wrapper {
-    width: 80%;
+    width: 60%;
   }  
 }
 .demo_block {
