@@ -9,16 +9,14 @@ body {
 .demo_wrapper {
 	width: 50%;  
 	margin: 0 auto;
-/*	
-	    max-width: 75%;
-       max-height: 70%;
-       height: auto !important; 	
-*/	
+	
 	
 }
+
+/*  For smaller device such as phone */
 @media only screen and (max-device-width: 800px), screen and (max-width: 800px) {
   .demo_wrapper {
-    width: 60%;
+    width: 90%;
   }  
 }
 .demo_block {
