@@ -65,7 +65,7 @@ function showSlides(n) {
 
 
 //---adjust image size to the given width & height (including centralising)		
-function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj,domImggObj)
+function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 {
     var maxWidth = 480;//787; // Max width for the image
     var maxHeight =360 ;//480;    // Max height for the image
