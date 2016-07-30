@@ -42,6 +42,7 @@ function showSlides(n) {
   //slides[slideIndex-1].style.display = "block"; 
   var nn=slideIndex-1
  // console.log("display slide="+nn);
+   //----display current DOT
   dots[slideIndex-1].className += " active";
   imgWdHtSetCenter(slides[slideIndex-1]);
   
@@ -52,8 +53,8 @@ function showSlides(n) {
 //---adjust image size to the given width & height (including centralising)		
 function imgWdHtSetCenter(domObj)
 {
-    var maxWidth = 320;//787; // Max width for the image
-    var maxHeight =240 ;//480;    // Max height for the image
+    var maxWidth = 640;//787; // Max width for the image
+    var maxHeight =480 ;//480;    // Max height for the image
     var ratio = 0;  // Used for aspect ratio
     var width = $(domObj).width();    // Current image width
     var height = $(domObj).height();  // Current image height
@@ -61,6 +62,22 @@ function imgWdHtSetCenter(domObj)
 	var imgNo=sldInx+1;
 	var totalImg=$(".imgg").length;
 	console.log("current image="+imgNo+"/"+totalImg+"  width="+width+"   height="+height+"   maWidth="+maxWidth+"  maxHt="+maxHeight);
+	
+    // Check if current height is larger than max
+    if(height > maxHeight)
+    {
+		console.log("img "+imgNo+"  height>maxHeight"+"  width="+width+"   height="+height);	    
+        ratio = maxHeight / height; // get ratio for scaling image
+        $(domObj).css("height", maxHeight);   // Set new height
+        $(domObj).css("width", width * ratio);    // Scale width based on ratio
+        width = width * ratio;    // Reset width to match scaled image
+        height = height * ratio;    // Reset height to match scaled image
+ 		console.log("img "+imgNo+"  adjusted width="+width+"  adjusted height="+height);	    
+		
+   }	
+	
+	
+	
     // Check if the current width is larger than the max
     if(width > maxWidth)
     {
@@ -73,24 +90,13 @@ function imgWdHtSetCenter(domObj)
 		console.log("img "+imgNo+"  adjusted width="+width+"  adjusted height="+height);	    
 		
     }
-    // Check if current height is larger than max
-    if(height > maxHeight)
-    {
-		console.log("img "+imgNo+"  height>maxHeight"+"  width="+width+"   height="+height);	    
-        ratio = maxHeight / height; // get ratio for scaling image
-        $(domObj).css("height", maxHeight);   // Set new height
-        $(domObj).css("width", width * ratio);    // Scale width based on ratio
-        width = width * ratio;    // Reset width to match scaled image
-        height = height * ratio;    // Reset height to match scaled image
- 		console.log("img "+imgNo+"  adjusted width="+width+"  adjusted height="+height);	    
-		
-   }
+
     var newwidth = $(domObj).width();
     var parentwidth=$(domObj).parent().width();
 	console.log("img "+imgNo+"  Parent width="+parentwidth+"  img width="+newwidth);
     var widthdiff=(parentwidth-newwidth)/2;
     $(domObj).css("margin-left",widthdiff);
-	//----show current img  slide
+	//----DISPLAY current img  slide
 	domObj.style.display = "block"; 
 };				 
 				 
