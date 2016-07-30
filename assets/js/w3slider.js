@@ -80,63 +80,71 @@ function imgWdHtSetCenter(domSlideObj, domCapObj)
 		  height=this.height;
 		  //console.log("Width:  " + this.width);
 		  //console.log("Height: " + this.height);
-	  });
+		  
+		   // var sldInx=slideIndex; // slideIndex is global and is 1-based
+			var totalImg=$(".imgg").length;
+			console.log("current image="+slideIndex+"/"+totalImg+"  width="+width+"   height="+height+"   maWidth="+maxWidth+"  maxHt="+maxHeight);
+			
+			// Check if current height is larger than max
+			// If Width is the priority, make sure 'if(width > maxWidth)' precedes 'if(height > maxHeight)'
+			// If Height is the priority, make sure  'if(height > maxHeight)'  precedes 'if(width > maxWidth)'
+			if(height > maxHeight)
+			{
+				console.log("img "+slideIndex+"  height>maxHeight"+"  width="+width+"   height="+height);	    
+				ratio = maxHeight / height; // get ratio for scaling image
+				$(domSlideObj).css("height", maxHeight);   // Set new height
+				$(domSlideObj).css("width", width * ratio);    // Scale width based on ratio
+				width = width * ratio;    // Reset width to match scaled image
+				height = height * ratio;    // Reset height to match scaled image
+				console.log("img "+slideIndex+"  adjusted width="+width+"  adjusted height="+height);	    
+				
+		   }	
 	
 	
-	
-    var sldInx=slideIndex; // slideIndex is global and is 1-based
-	var totalImg=$(".imgg").length;
-	console.log("current image="+slideIndex+"/"+totalImg+"  width="+width+"   height="+height+"   maWidth="+maxWidth+"  maxHt="+maxHeight);
-	
-    // Check if current height is larger than max
-	// If Width is the priority, make sure 'if(width > maxWidth)' precedes 'if(height > maxHeight)'
-	// If Height is the priority, make sure  'if(height > maxHeight)'  precedes 'if(width > maxWidth)'
-    if(height > maxHeight)
-    {
-		console.log("img "+slideIndex+"  height>maxHeight"+"  width="+width+"   height="+height);	    
-        ratio = maxHeight / height; // get ratio for scaling image
-        $(domSlideObj).css("height", maxHeight);   // Set new height
-        $(domSlideObj).css("width", width * ratio);    // Scale width based on ratio
-        width = width * ratio;    // Reset width to match scaled image
-        height = height * ratio;    // Reset height to match scaled image
- 		console.log("img "+slideIndex+"  adjusted width="+width+"  adjusted height="+height);	    
-		
-   }	
-	
-	
-/* 	
-    // Check if the current width is larger than the max
-    if(width > maxWidth)
-    {
-		console.log("img "+slideIndex+"  width>maxWidth"+"  width="+width+"   height="+height);	    
-        ratio = maxWidth / width;   // get ratio for scaling image
-        $(domSlideObj).css("width", maxWidth); // Set new width
-        $(domSlideObj).css("height", height * ratio);  // Scale height based on ratio
-        height = height * ratio;    // Reset height to match scaled image
-        width = width * ratio;    // Reset width to match scaled image
-		console.log("img "+slideIndex+"  adjusted width="+width+"  adjusted height="+height);	    		
-    }
- */
+		/* 	
+			// Check if the current width is larger than the max
+			if(width > maxWidth)
+			{
+				console.log("img "+slideIndex+"  width>maxWidth"+"  width="+width+"   height="+height);	    
+				ratio = maxWidth / width;   // get ratio for scaling image
+				$(domSlideObj).css("width", maxWidth); // Set new width
+				$(domSlideObj).css("height", height * ratio);  // Scale height based on ratio
+				height = height * ratio;    // Reset height to match scaled image
+				width = width * ratio;    // Reset width to match scaled image
+				console.log("img "+slideIndex+"  adjusted width="+width+"  adjusted height="+height);	    		
+			}
+		 */
  
-    var newwidth = $(domSlideObj).width();
-    var parentwidth=$(domSlideObj).parent().width();
-	//var capwidth=$(domCapObj).innerWidth();
-	console.log("img "+slideIndex+"  Parent width="+parentwidth+"  img width="+newwidth);
-    var widthdiff=(parentwidth-newwidth)/2;
-    $(domSlideObj).css("margin-left",widthdiff);
-	  //----DISPLAY current img  slide
-	  domSlideObj.style.display = "block"; 	
+			var newwidth = $(domSlideObj).width();
+			var parentwidth=$(domSlideObj).parent().width();
+			//var capwidth=$(domCapObj).innerWidth();
+			console.log("img "+slideIndex+"  Parent width="+parentwidth+"  img width="+newwidth);
+			var widthdiff=(parentwidth-newwidth)/2;
+			$(domSlideObj).css("margin-left",widthdiff);
+			  //----DISPLAY current img  slide
+			  domSlideObj.style.display = "block"; 	
+			
+			  //----get caption text width
+			  var html_org = $(domCapObj).html();
+			  var html_calc = '<span>' + html_org + '</span>';
+			  $(domCapObj).html(html_calc);
+			  var capwidth= $(domCapObj).find('span:first').width();
+			
+			console.log("img "+slideIndex+"  Parent width="+parentwidth+"  capwidth="+capwidth);
+			
+			  var capWdDiff=(parentwidth-capwidth)/2;
+			  $(domCapObj).css("margin-left",capWdDiff);		  
+		  
+		  
+		  
+		  
+		  
+		  
+	  });// end  create a new <img> tag
 	
-	  //----get caption text width
-	  var html_org = $(domCapObj).html();
-      var html_calc = '<span>' + html_org + '</span>';
-      $(domCapObj).html(html_calc);
-      var capwidth= $(domCapObj).find('span:first').width();
 	
-	console.log("img "+slideIndex+"  Parent width="+parentwidth+"  capwidth="+capwidth);
 	
-	  var capWdDiff=(parentwidth-capwidth)/2;
-	  $(domCapObj).css("margin-left",capWdDiff);
 
-};				 
+
+};	//-------function imgWdHtSetCenter()----------			 
 				 
