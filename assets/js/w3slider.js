@@ -96,10 +96,12 @@ function imgWdHtSetCenter(domSlideObj, domCapObj)
 
     var newwidth = $(domSlideObj).width();
     var parentwidth=$(domSlideObj).parent().width();
+	var capwidth=$(domCapObj).width();
 	console.log("img "+imgNo+"  Parent width="+parentwidth+"  img width="+newwidth);
     var widthdiff=(parentwidth-newwidth)/2;
     $(domSlideObj).css("margin-left",widthdiff);
-	$( domCapObj).css("margin-left",widthdiff);
+	var capWdDiff=(parentwidth-capwidth)/2;
+	$(domCapObj).css("margin-left",capWdDiff);
 	//----DISPLAY current img  slide
 	domSlideObj.style.display = "block"; 
 };				 
