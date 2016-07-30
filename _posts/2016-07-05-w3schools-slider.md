@@ -28,19 +28,19 @@ background-repeat:repeat;
 ### Picture  carousel -  W3schools Sliders  888
 
 <div class="slideshow-container">
-  <div class="mySlides fade">
+  <div class="mySlides">
     <div class="numbertext">1 / 3</div>
     <img src="{{ site.url }}/images/fc1.jpg" style="width:100%">
     <div class="text">Caption Text</div>
   </div>
 
-  <div class="mySlides fade">
+  <div class="mySlides">
     <div class="numbertext">2 / 3</div>
     <img src="i{{ site.url }}/images/kitchen_adventurer_lemon.jpg" style="width:100%">
     <div class="text">Caption Two</div>
   </div>
 
-  <div class="mySlides fade">
+  <div class="mySlides">
     <div class="numbertext">3 / 3</div>
     <img src="{{ site.url }}/images/kitchen_adventurer_donut.jpg" style="width:100%">
     <div class="text">Caption Three</div>
