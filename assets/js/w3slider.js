@@ -47,7 +47,7 @@ function showSlides(n) {
 
   
  	  //----DISPLAY current img  slide
-	  slides[slideIndex-1].style.display = "block"; 	 
+	 // slides[slideIndex-1].style.display = "block"; 	 
   
  // console.log("display slide="+slideIndex);
    //----display current DOT
@@ -55,7 +55,7 @@ function showSlides(n) {
   
   
   
- // imgWdHtSetCenter(slides[slideIndex-1], cpTxts[slideIndex-1]);
+  imgWdHtSetCenter(slides[slideIndex-1], cpTxts[slideIndex-1]);
   
 }
 
@@ -71,7 +71,8 @@ function imgWdHtSetCenter(domSlideObj, domCapObj)
     var height =0;// $(domSlideObj).height();  // Current image height
 	
 	//---To get current physical image width & height, we need to wait the current image is loaded.  
-    //  we can first create a new img tag obj.  Load the new img tag with our targetted image and have a load event so as to get its width n height
+	//  We can create a img load event using a new image tag
+    //  Create a new img tag obj.  Load the new img tag with our targetted image and wait for new img tag to load  so as to get its width n height
 	$("<img>") // Create a new <img>
 	  .attr("src", domSlideObj.getAttribute("src")) // Copy the src attr from the target <img>
 		.load(function() {
