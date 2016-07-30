@@ -59,10 +59,10 @@ function imgWdHtSetCenter(domSlideObj, domCapObj)
     var ratio = 0;  // Used for aspect ratio
     var width = $(domSlideObj).width();    // Current image width
     var height = $(domSlideObj).height();  // Current image height
-    var sldInx=slideIndex;
+    var sldInx=slideIndex; // slideIndex is global and is 1-based
 	var imgNo=sldInx+1;
 	var totalImg=$(".imgg").length;
-	console.log("current image="+imgNo+"/"+totalImg+"  width="+width+"   height="+height+"   maWidth="+maxWidth+"  maxHt="+maxHeight);
+	console.log("current image="+slideIndex+"/"+totalImg+"  width="+width+"   height="+height+"   maWidth="+maxWidth+"  maxHt="+maxHeight);
 	
     // Check if current height is larger than max
 	// If Width is the priority, make sure 'if(width > maxWidth)' precedes 'if(height > maxHeight)'
@@ -75,7 +75,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj)
         $(domSlideObj).css("width", width * ratio);    // Scale width based on ratio
         width = width * ratio;    // Reset width to match scaled image
         height = height * ratio;    // Reset height to match scaled image
- 		console.log("img "+imgNo+"  adjusted width="+width+"  adjusted height="+height);	    
+ 		console.log("img "+slideIndex+"  adjusted width="+width+"  adjusted height="+height);	    
 		
    }	
 	
@@ -84,13 +84,13 @@ function imgWdHtSetCenter(domSlideObj, domCapObj)
     // Check if the current width is larger than the max
     if(width > maxWidth)
     {
-		console.log("img "+imgNo+"  width>maxWidth"+"  width="+width+"   height="+height);	    
+		console.log("img "+slideIndex+"  width>maxWidth"+"  width="+width+"   height="+height);	    
         ratio = maxWidth / width;   // get ratio for scaling image
         $(domSlideObj).css("width", maxWidth); // Set new width
         $(domSlideObj).css("height", height * ratio);  // Scale height based on ratio
         height = height * ratio;    // Reset height to match scaled image
         width = width * ratio;    // Reset width to match scaled image
-		console.log("img "+imgNo+"  adjusted width="+width+"  adjusted height="+height);	    
+		console.log("img "+slideIndex+"  adjusted width="+width+"  adjusted height="+height);	    
 		
     }
 
@@ -109,7 +109,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj)
       $(domCapObj).html(html_calc);
       var capwidth= $(domCapObj).find('span:first').width();
 	
-	console.log("img "+imgNo+"  Parent width="+parentwidth+"  capwidth="+capwidth);
+	console.log("img "+slideIndex+"  Parent width="+parentwidth+"  capwidth="+capwidth);
 	
 	  var capWdDiff=(parentwidth-capwidth)/2;
 	  $(domCapObj).css("margin-left",capWdDiff);
