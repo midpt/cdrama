@@ -22,7 +22,7 @@ background-repeat:repeat;
 }
 </style>
   
-### Picture  carousel -  W3schools Sliders  3
+### Picture  carousel -  W3schools Sliders  5
 <div class="slideshow-container">
   <div class="mySlides">
     <div class="numbertext">1 / 4</div>

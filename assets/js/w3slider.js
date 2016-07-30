@@ -14,9 +14,9 @@ $(".next").click(function(){
 
 
 $(".dot").click(function(){
-slideIndex = $(this).index()+1;
-setTimeout(function(){showSlides(slideIndex);},2000);
-  //showSlides(slideIndex = $(this).index()+1);
+//slideIndex = $(this).index()+1;
+//setTimeout(function(){showSlides(slideIndex);},2000);
+  showSlides(slideIndex = $(this).index()+1);
   console.log("dot no.="+slideIndex )
 });
 
@@ -44,11 +44,18 @@ function showSlides(n) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
   //slides[slideIndex-1].style.display = "block"; 
- // var nn=slideIndex-1
+
+  
+ 	  //----DISPLAY current img  slide
+	  slides[slideIndex-1].style.display = "block"; 	 
+  
  // console.log("display slide="+slideIndex);
    //----display current DOT
   dots[slideIndex-1].className += " active";
-  imgWdHtSetCenter(slides[slideIndex-1], cpTxts[slideIndex-1]);
+  
+  
+  
+ // imgWdHtSetCenter(slides[slideIndex-1], cpTxts[slideIndex-1]);
   
 }
 
@@ -60,10 +67,23 @@ function imgWdHtSetCenter(domSlideObj, domCapObj)
     var maxWidth = 480;//787; // Max width for the image
     var maxHeight =360 ;//480;    // Max height for the image
     var ratio = 0;  // Used for aspect ratio
-    var width = $(domSlideObj).width();    // Current image width
-    var height = $(domSlideObj).height();  // Current image height
+    var width =0;// $(domSlideObj).width();    // Current image width
+    var height =0;// $(domSlideObj).height();  // Current image height
+	
+	//---To get current physical image width & height, we need to wait the current image is loaded.  
+    //  we can first create a new img tag obj.  Load the new img tag with our targetted image and have a load event so as to get its width n height
+	$("<img>") // Create a new <img>
+	  .attr("src", domSlideObj.getAttribute("src")) // Copy the src attr from the target <img>
+		.load(function() {
+		  width=this.width;
+		  height=this.height;
+		  //console.log("Width:  " + this.width);
+		  //console.log("Height: " + this.height);
+	  });
+	
+	
+	
     var sldInx=slideIndex; // slideIndex is global and is 1-based
-	var imgNo=sldInx+1;
 	var totalImg=$(".imgg").length;
 	console.log("current image="+slideIndex+"/"+totalImg+"  width="+width+"   height="+height+"   maWidth="+maxWidth+"  maxHt="+maxHeight);
 	
