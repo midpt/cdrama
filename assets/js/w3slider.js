@@ -124,7 +124,8 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 			console.log("img "+slideIndex+"  Parent width="+parentwidth+"  img width="+newwidth);
 			var widthdiff=(parentwidth-newwidth)/2;
 			$(domSlideObj).css("margin-left",widthdiff);
-			  //----DISPLAY current img  slide
+			
+			  //----DISPLAY current img  slide-------------
 			  domSlideObj.style.display = "block"; 	
 			
 			  //----get caption text width
