@@ -15,6 +15,7 @@ $(".next").click(function(){
 
 $(".dot").click(function(){
   showSlides(slideIndex = $(this).index()+1);
+  console.log("dot no.="+slideIndex )
 });
 
 
