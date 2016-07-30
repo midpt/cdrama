@@ -129,14 +129,14 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 			  domSlideObj.style.display = "block"; 	
 			
 			  //----get caption text width
-			  var html_org = $(domCapObj).html();
-			  var html_calc = '<span>' + html_org + '</span>';
-			  $(domCapObj).html(html_calc);
-			  var capwidth= $(domCapObj).find('span:first').width();
+		//	  var html_org = $(domCapObj).html();
+		//	  var html_calc = '<span>' + html_org + '</span>';
+		//	  $(domCapObj).html(html_calc);
+		//	  var capwidth= $(domCapObj).find('span:first').width();
 			
-			console.log("img "+slideIndex+"  Parent width="+parentwidth+"  capwidth="+capwidth);
+		//	console.log("img "+slideIndex+"  Parent width="+parentwidth+"  capwidth="+capwidth);
 			
-			  var capWdDiff=(parentwidth-capwidth)/2;
+		//	  var capWdDiff=(parentwidth-capwidth)/2;
 			  
 			//  $(domCapObj).css("margin-left",capWdDiff);		  
 		  
