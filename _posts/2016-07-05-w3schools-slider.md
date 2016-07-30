@@ -14,19 +14,15 @@ featured: true
 w3Loaded: true
 ---
 <style>
-
 body{
-
 /*background-image: url('{{ site.url }}/images/orient1.png'); 
 background-repeat:repeat;  
 */
 
 }
-
 </style>
   
-### Picture  carousel -  W3schools Sliders   222
-
+### Picture  carousel -  W3schools Sliders   4
 <div class="slideshow-container">
   <div class="mySlides">
     <div class="numbertext">1 / 4</div>
