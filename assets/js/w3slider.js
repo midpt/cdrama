@@ -15,7 +15,7 @@ $(".next").click(function(){
 
 $(".dot").click(function(){
 slideIndex = $(this).index()+1;
-setTimeout(function(){showSlides(slideIndex);},500);
+setTimeout(function(){showSlides(slideIndex);},2000);
   //showSlides(slideIndex = $(this).index()+1);
   console.log("dot no.="+slideIndex )
 });
@@ -44,8 +44,8 @@ function showSlides(n) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
   //slides[slideIndex-1].style.display = "block"; 
-  var nn=slideIndex-1
- // console.log("display slide="+nn);
+ // var nn=slideIndex-1
+ // console.log("display slide="+slideIndex);
    //----display current DOT
   dots[slideIndex-1].className += " active";
   imgWdHtSetCenter(slides[slideIndex-1], cpTxts[slideIndex-1]);
