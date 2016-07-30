@@ -57,7 +57,7 @@ $("img").each(function()
     var height = $(this).height();  // Current image height
     var sldInx=$(this).index();
 	var imgNo=sldInx+1;
-	console.log("current image="+imgNo);
+	console.log("current image="+imgNo+"  width="+width+"   height="+height+"   maWidth="+maxWidth+"  maxHt="+maxHeight);
     // Check if the current width is larger than the max
     if(width > maxWidth)
     {
@@ -84,6 +84,7 @@ $("img").each(function()
    }
     var newwidth = $(this).width();
     var parentwidth=$(this).parent().width();
+	console.log("img "+imgNo+"  Parent width="+parentwidth+"  img width="+newwidth);
     var widthdiff=(parentwidth-newwidth)/2;
     $(this).css("margin-left",widthdiff);
 });				 
