@@ -34,6 +34,12 @@
 {% endif %}
 
 
+
+{% if page.w3Loaded %}
+	<script   type="text/javascript" src="{{ site.url }}/assets/js/w3slider.js"></script>
+{% endif %}
+
+
 {% if site.google_analytics %}
 <!-- Asynchronous Google Analytics snippet -->
 <script>

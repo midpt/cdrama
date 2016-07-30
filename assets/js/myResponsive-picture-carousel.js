@@ -48,7 +48,8 @@ console.log("Post Slippery loaded");
 				});
 				
 				 */
-				 
+		
+//---adjust image size to given width & height (including centralising)		
 $("img").each(function()
 {
     var maxWidth = 320;//787; // Max width for the image
