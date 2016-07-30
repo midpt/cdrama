@@ -32,6 +32,7 @@ function currentSlide(n) {
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
+  var imgg=document.getElementsByClassName("imgg");
   var dots = document.getElementsByClassName("dot");
   var cpTxts=document.getElementsByClassName("captext");
   if (n > slides.length) {slideIndex = 1} 
@@ -54,17 +55,17 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   
   
-  var cscr=slides[slideIndex-1].getAttribute("src");
+  var cscr=imgg[slideIndex-1].getAttribute("src");
   console.log("current src="+cscr)
   
-  imgWdHtSetCenter(slides[slideIndex-1], cpTxts[slideIndex-1]);
+  imgWdHtSetCenter(slides[slideIndex-1], cpTxts[slideIndex-1],imgg);
   
 }
 
 
 
 //---adjust image size to the given width & height (including centralising)		
-function imgWdHtSetCenter(domSlideObj, domCapObj)
+function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj,domImggObj)
 {
     var maxWidth = 480;//787; // Max width for the image
     var maxHeight =360 ;//480;    // Max height for the image
@@ -76,7 +77,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj)
 	//  We can create a img load event using a new image tag
     //  Create a new img tag obj.  Load the new img tag with our targetted image and wait for new img tag to load  so as to get its width n height
 	$("<img>") // Create a new <img>
-	  .attr("src", domSlideObj.getAttribute("src")) // Copy the src attr from the target img  ie  domSlideObj
+	  .attr("src", domImggObj[slideIndex-1].getAttribute("src")) // Copy the src attr from the target img  ie  domSlideObj
 		.load(function() {
 		  width=this.width;
 		  height=this.height;
