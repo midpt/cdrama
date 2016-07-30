@@ -66,8 +66,8 @@ function imgWdHtSetCenter(domObj)
     {
 		console.log("img "+imgNo+"  width>maxWidth"+"  width="+width+"   height="+height);	    
         ratio = maxWidth / width;   // get ratio for scaling image
-        $(this).css("width", maxWidth); // Set new width
-        $(this).css("height", height * ratio);  // Scale height based on ratio
+        $(domObj).css("width", maxWidth); // Set new width
+        $(domObj).css("height", height * ratio);  // Scale height based on ratio
         height = height * ratio;    // Reset height to match scaled image
         width = width * ratio;    // Reset width to match scaled image
 		console.log("img "+imgNo+"  adjusted width="+width+"  adjusted height="+height);	    
@@ -78,19 +78,19 @@ function imgWdHtSetCenter(domObj)
     {
 		console.log("img "+imgNo+"  height>maxHeight"+"  width="+width+"   height="+height);	    
         ratio = maxHeight / height; // get ratio for scaling image
-        $(this).css("height", maxHeight);   // Set new height
-        $(this).css("width", width * ratio);    // Scale width based on ratio
+        $(domObj).css("height", maxHeight);   // Set new height
+        $(domObj).css("width", width * ratio);    // Scale width based on ratio
         width = width * ratio;    // Reset width to match scaled image
         height = height * ratio;    // Reset height to match scaled image
  		console.log("img "+imgNo+"  adjusted width="+width+"  adjusted height="+height);	    
 		
    }
-    var newwidth = $(this).width();
-    var parentwidth=$(this).parent().width();
+    var newwidth = $(domObj).width();
+    var parentwidth=$(domObj).parent().width();
 	console.log("img "+imgNo+"  Parent width="+parentwidth+"  img width="+newwidth);
     var widthdiff=(parentwidth-newwidth)/2;
-    $(this).css("margin-left",widthdiff);
-	
+    $(domObj).css("margin-left",widthdiff);
+	//----show current img  slide
 	domObj.style.display = "block"; 
 };				 
 				 
