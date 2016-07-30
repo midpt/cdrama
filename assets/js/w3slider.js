@@ -61,8 +61,8 @@ function showSlides(n) {
   imgWdHtSetCenter(slides[slideIndex-1], cpTxts[slideIndex-1],imgg);
   
 }
-
-
+ 
+  
 
 //---adjust image size to the given width & height (including centralising)		
 function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
