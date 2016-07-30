@@ -69,7 +69,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj)
 	// If Height is the priority, make sure  'if(height > maxHeight)'  precedes 'if(width > maxWidth)'
     if(height > maxHeight)
     {
-		console.log("img "+imgNo+"  height>maxHeight"+"  width="+width+"   height="+height);	    
+		console.log("img "+slideIndex+"  height>maxHeight"+"  width="+width+"   height="+height);	    
         ratio = maxHeight / height; // get ratio for scaling image
         $(domSlideObj).css("height", maxHeight);   // Set new height
         $(domSlideObj).css("width", width * ratio);    // Scale width based on ratio
@@ -97,7 +97,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj)
     var newwidth = $(domSlideObj).width();
     var parentwidth=$(domSlideObj).parent().width();
 	//var capwidth=$(domCapObj).innerWidth();
-	console.log("img "+imgNo+"  Parent width="+parentwidth+"  img width="+newwidth);
+	console.log("img "+slideIndex+"  Parent width="+parentwidth+"  img width="+newwidth);
     var widthdiff=(parentwidth-newwidth)/2;
     $(domSlideObj).css("margin-left",widthdiff);
 	  //----DISPLAY current img  slide
