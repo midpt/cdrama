@@ -14,7 +14,8 @@ $(".next").click(function(){
 
 
 $(".dot").click(function(){
-setTimeout(function(){showSlides(slideIndex = $(this).index()+1);;},500);
+//slideIndex = $(this).index()+1;
+setTimeout(function(){showSlides(slideIndex = $(this).index()+1)},500);
   //showSlides(slideIndex = $(this).index()+1);
   console.log("dot no.="+slideIndex )
 });
