@@ -141,7 +141,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 			//  $(domCapObj).css("margin-left",capWdDiff);		  
 		  
 		  
-		      $(domCapObj).css('text-align','center');
+		      //$(domCapObj).css('text-align','center');
 			  
 		      console.log("text="+$(domCapObj).html())
 		  
