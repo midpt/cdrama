@@ -1,6 +1,6 @@
 console.log("w3Slider loaded.")
 
-var slideIndex = 1;
+var slideIndex = 1; // slideIndex is 1-based
 showSlides(slideIndex);
 
 
@@ -39,23 +39,25 @@ function showSlides(n) {
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block"; 
+  //slides[slideIndex-1].style.display = "block"; 
   var nn=slideIndex-1
  // console.log("display slide="+nn);
   dots[slideIndex-1].className += " active";
+  imgWdHtSetCenter(slides[slideIndex-1]);
+  
 }
 
 
 
 //---adjust image size to the given width & height (including centralising)		
-$("img.imgg").each(function(inx)
+function imgWdHtSetCenter(domObj)
 {
     var maxWidth = 320;//787; // Max width for the image
     var maxHeight =240 ;//480;    // Max height for the image
     var ratio = 0;  // Used for aspect ratio
-    var width = $(this).width();    // Current image width
-    var height = $(this).height();  // Current image height
-    var sldInx=inx;
+    var width = $(domObj).width();    // Current image width
+    var height = $(domObj).height();  // Current image height
+    var sldInx=slideIndex;
 	var imgNo=sldInx+1;
 	var totalImg=$(".imgg").length;
 	console.log("current image="+imgNo+"/"+totalImg+"  width="+width+"   height="+height+"   maWidth="+maxWidth+"  maxHt="+maxHeight);
@@ -88,5 +90,7 @@ $("img.imgg").each(function(inx)
 	console.log("img "+imgNo+"  Parent width="+parentwidth+"  img width="+newwidth);
     var widthdiff=(parentwidth-newwidth)/2;
     $(this).css("margin-left",widthdiff);
-});				 
+	
+	domObj.style.display = "block"; 
+};				 
 				 
