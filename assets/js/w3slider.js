@@ -96,13 +96,23 @@ function imgWdHtSetCenter(domSlideObj, domCapObj)
 
     var newwidth = $(domSlideObj).width();
     var parentwidth=$(domSlideObj).parent().width();
-	var capwidth=$(domCapObj).innerWidth();
+	//var capwidth=$(domCapObj).innerWidth();
 	console.log("img "+imgNo+"  Parent width="+parentwidth+"  img width="+newwidth);
     var widthdiff=(parentwidth-newwidth)/2;
     $(domSlideObj).css("margin-left",widthdiff);
-	var capWdDiff=(parentwidth-capwidth)/2;
-	$(domCapObj).css("margin-left",capWdDiff);
-	//----DISPLAY current img  slide
-	domSlideObj.style.display = "block"; 
+	  //----DISPLAY current img  slide
+	  domSlideObj.style.display = "block"; 	
+	
+	  //----get caption text width
+	  var html_org = $(domCapObj).html();
+      var html_calc = '<span>' + html_org + '</span>';
+      $(domCapObj).html(html_calc);
+      var capwidth= $(domCapObj).find('span:first').width();
+	
+	
+	
+	  var capWdDiff=(parentwidth-capwidth)/2;
+	  $(domCapObj).css("margin-left",capWdDiff);
+
 };				 
 				 
