@@ -57,7 +57,8 @@ $("img").each(function()
     var height = $(this).height();  // Current image height
     var sldInx=$(this).index();
 	var imgNo=sldInx+1;
-	console.log("current image="+imgNo+"  width="+width+"   height="+height+"   maWidth="+maxWidth+"  maxHt="+maxHeight);
+	var totalImg=$(img).length;
+	console.log("current image="+imgNo+"/"+totalImg+"  width="+width+"   height="+height+"   maWidth="+maxWidth+"  maxHt="+maxHeight);
     // Check if the current width is larger than the max
     if(width > maxWidth)
     {
