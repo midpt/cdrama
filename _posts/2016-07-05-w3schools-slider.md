@@ -25,7 +25,7 @@ background-repeat:repeat;
 
 </style>
   
-### Picture  carousel -  W3schools Sliders   111
+### Picture  carousel -  W3schools Sliders   33
 
 <div class="slideshow-container">
   <div class="mySlides">
@@ -36,7 +36,7 @@ background-repeat:repeat;
 
   <div class="mySlides">
     <div class="numbertext">2 / 3</div>
-    <img src="i{{ site.url }}/images/kitchen_adventurer_lemon.jpg" style="width:100%">
+    <img src="{{ site.url }}/images/kitchen_adventurer_lemon.jpg" style="width:100%">
     <div class="text">Caption Two</div>
   </div>
 
