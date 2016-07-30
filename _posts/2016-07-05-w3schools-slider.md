@@ -25,7 +25,7 @@ background-repeat:repeat;
 
 </style>
   
-### Picture  carousel -  W3schools Sliders  888
+### Picture  carousel -  W3schools Sliders   111
 
 <div class="slideshow-container">
   <div class="mySlides">

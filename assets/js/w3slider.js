@@ -40,6 +40,7 @@ function showSlides(n) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex-1].style.display = "block"; 
-  console.log("display slide="+slideIndex-1);
+  var nn=slideIndex-1
+  console.log("display slide="+nn);
   dots[slideIndex-1].className += " active";
 }
