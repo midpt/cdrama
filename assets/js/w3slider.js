@@ -109,7 +109,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj)
       $(domCapObj).html(html_calc);
       var capwidth= $(domCapObj).find('span:first').width();
 	
-	
+	console.log("img "+imgNo+"  Parent width="+parentwidth+"  capwidth="+capwidth);
 	
 	  var capWdDiff=(parentwidth-capwidth)/2;
 	  $(domCapObj).css("margin-left",capWdDiff);
