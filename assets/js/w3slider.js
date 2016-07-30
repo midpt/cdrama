@@ -48,7 +48,7 @@ function showSlides(n) {
 
 
 //---adjust image size to the given width & height (including centralising)		
-$("img").each(function()
+$(".imgg").each(function()
 {
     var maxWidth = 320;//787; // Max width for the image
     var maxHeight =240 ;//480;    // Max height for the image
@@ -57,7 +57,7 @@ $("img").each(function()
     var height = $(this).height();  // Current image height
     var sldInx=$(this).index();
 	var imgNo=sldInx+1;
-	var totalImg=$("img").length;
+	var totalImg=$(".imgg").length;
 	console.log("current image="+imgNo+"/"+totalImg+"  width="+width+"   height="+height+"   maWidth="+maxWidth+"  maxHt="+maxHeight);
     // Check if the current width is larger than the max
     if(width > maxWidth)
