@@ -137,10 +137,11 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 			console.log("img "+slideIndex+"  Parent width="+parentwidth+"  capwidth="+capwidth);
 			
 			  var capWdDiff=(parentwidth-capwidth)/2;
-			  $(domCapObj).css("margin-left",capWdDiff);		  
+			  
+			//  $(domCapObj).css("margin-left",capWdDiff);		  
 		  
 		  
-		  
+		      $(domCapObj).css('text-align','center');
 		  
 		  
 		  
