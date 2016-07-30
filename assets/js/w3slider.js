@@ -142,7 +142,8 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 		  
 		  
 		      $(domCapObj).css('text-align','center');
-		  
+			  
+		      console.log("text="+$(domCapObj).html())
 		  
 		  
 	  });// end  create a new <img> tag
