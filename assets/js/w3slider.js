@@ -47,14 +47,12 @@ function showSlides(n) {
   }
   //slides[slideNumber-1].style.display = "block"; 
 
-  
- 	  //----DISPLAY current img  slide
+  //----DISPLAY current img  slide
 	 // slides[slideNumber-1].style.display = "block"; 	 
   
  // console.log("display slide="+slideNumber);
    //----display current DOT
  // dots[slideNumber-1].className += " active";
-  
   
   var cscr=imgg[slideNumber-1].getAttribute("src");
   console.log("current src="+cscr)
@@ -99,8 +97,8 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 				ratio = maxHeight / height; // get ratio for scaling image
 				$(domSlideObj).css("height", maxHeight);   // Set new height
 				$(domSlideObj).css("width", width * ratio);    // Scale width based on ratio
-				width = width * ratio;    // Reset width to match scaled image
-				height = height * ratio;    // Reset height to match scaled image
+				width = (width * ratio).toFixed(2);    // Reset width to match scaled image
+				height = (height * ratio).toFixed(2);    // Reset height to match scaled image
 				console.log("img "+slideNumber+"  adjusted width="+width+"  adjusted height="+height);	    
 				
 //		   }	
@@ -125,6 +123,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 			console.log("img "+slideNumber+"  Parent width="+parentwidth+"  img width="+newwidth);
 			var widthdiff=(parentwidth-newwidth)/2;
 			$(domSlideObj).css("margin-left",widthdiff);
+			console.log("img "+slideNumber+"  adjusted width="+width+"  adjusted height="+height+" margin-left="+widthdiff);	    
 			
 
 		      //---prepare to find out the text caption width
@@ -157,9 +156,6 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 		  
 	  });// end  create a new <img> tag
 	
-	
-	
-
 
 };	//-------function imgWdHtSetCenter()----------
 
