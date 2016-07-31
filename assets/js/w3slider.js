@@ -144,7 +144,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 		      var capwd=$(domCapObj).textWidth();
 			  
 		      console.log("caption width="+capwd);
-			  var capWdDiff=(parentwidth-capwd)/2;
+			  var capWdDiff=((parentwidth-capwd)/2)-100;
 			  $(domCapObj).css("margin-left",capWdDiff);	
 			  
 		  
