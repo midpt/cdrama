@@ -64,7 +64,8 @@ function showSlides(n) {
  
   
 
-//---adjust image size to the given width & height (including centralising)		
+//---adjust image size to the given width & height (including centralising)	
+// eg domSlideObj=document.getElementsByTagName("myslides")[0]	
 function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 {
     var maxWidth = 480;//787; // Max width for the image
@@ -140,12 +141,12 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 			  
 			//  $(domCapObj).css("margin-left",capWdDiff);		  
 		  
-		  
-		      var capwd=$(domCapObj).textWidth();
+		      var curTxt=domCapObj.innerHTML;
+		      var capwd=$(domCapObj).textWidth(curTxt,'15px arial');
 			  
 		      console.log("caption width="+capwd);
 			  var capWdDiff=((parentwidth-capwd)/2);
-			  $(domCapObj).css("width",capwd*2);	
+			  $(domCapObj).css("width",capwd+10);	
 			  $(domCapObj).css("left",capWdDiff);	
 			  
 		  
