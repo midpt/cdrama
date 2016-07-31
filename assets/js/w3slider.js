@@ -139,7 +139,6 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 			  var capwdSetStr=capwdSet+"px"
 			  
 			  
-		      console.log("caption width="+capwd+"    currentText="+curTxt+"   fontsize="+curFontSize);
 			  
 			  var capWdDiff=((parentwidth-capwd)/2);
 			  $(domCapObj).css("width",capwdSetStr);	
@@ -151,7 +150,9 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 			  dots[slideNumber-1].className += " active";
 			
   			  //---display slider numbertext
-			  domNumObj[slideNumber-1].innerHTML=slideNumber+" / "+domNumObj.length;
+			  var numT=slideNumber+" / "+domNumObj.length;
+			  domNumObj[slideNumber-1].innerHTML=numT;
+		      console.log("caption width="+capwd+"    currentText="+curTxt+"   fontsize="+curFontSize+"   number text="+numT);
 		  
 	  });// end  create a new <img> tag
 	
