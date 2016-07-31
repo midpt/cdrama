@@ -22,7 +22,7 @@ background-repeat:repeat;
 }
 </style>
   
-### Picture  carousel -  W3schools Sliders  8
+### Picture  carousel -  W3schools Sliders  9
 <div class="slideshow-container">
   <div class="mySlides">
     <div class="numbertext">1 / 4</div>
@@ -39,7 +39,7 @@ background-repeat:repeat;
   <div class="mySlides">
     <div class="numbertext">3 / 4</div>
     <img class="imgg"  src="{{ site.url }}/images/kitchen_adventurer_donut.jpg" >
-    <div class="captext" Caption Three</div>
+    <div class="captext" >Caption Three</div>
   </div>
 
    <div class="mySlides">
