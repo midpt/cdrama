@@ -37,7 +37,7 @@ function showSlides(n) {
   var cpTxts=document.getElementsByClassName("text");
   if (n > slides.length) {slideIndex = 1} 
   if (n < 1) {slideIndex = slides.length}
- //  Hide all slides");
+ // -----  Hide ALL slides
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none"; 
   }
@@ -52,7 +52,7 @@ function showSlides(n) {
   
  // console.log("display slide="+slideIndex);
    //----display current DOT
-  dots[slideIndex-1].className += " active";
+ // dots[slideIndex-1].className += " active";
   
   
   var cscr=imgg[slideIndex-1].getAttribute("src");
@@ -126,10 +126,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 			var widthdiff=(parentwidth-newwidth)/2;
 			$(domSlideObj).css("margin-left",widthdiff);
 			
-			  //----DISPLAY current img  slide-------------
-			  domSlideObj.style.display = "block"; 	
-			
-  
+
 		      //---prepare to find out the text caption width
 			  //  So as to reposition the caption in central position
 		      var curTxt=domCapObj.innerHTML;
@@ -149,7 +146,12 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 			  $(domCapObj).css("width",capwdSetStr);	
 			  $(domCapObj).css("left",capWdDiff);	
 			  
-		  
+				  //----DISPLAY current img  slide-------------
+			  domSlideObj.style.display = "block"; 	
+			   //----display current DOT
+			  dots[slideIndex-1].className += " active";
+			
+  	  
 		  
 	  });// end  create a new <img> tag
 	
