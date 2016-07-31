@@ -70,8 +70,8 @@ function showSlides(n) {
 // eg domImggObj=document.getElementsByClassName("imgg");
 function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 {
-    var maxWidth = 480;//787; // Max width for the image
-    var maxHeight =360 ;//480;    // Max height for the image
+    var maxWidth = 640;//787; // change this to your need width for the image
+    var maxHeight =480 ;//480;    // Max height for the image
     var ratio = 0;  // Used for aspect ratio
     var width =0;// $(domSlideObj).width();    // Current image width
     var height =0;// $(domSlideObj).height();  // Current image height
@@ -91,8 +91,6 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 			console.log("current image="+slideNumber+"/"+totalImg+"  width="+width+"   height="+height+"   maWidth="+maxWidth+"  maxHt="+maxHeight);
 			
 			// Check if current height is larger than max
-			// If Width is the priority, make sure 'if(width > maxWidth)' precedes 'if(height > maxHeight)'
-			// If Height is the priority, make sure  'if(height > maxHeight)'  precedes 'if(width > maxWidth)'
 			if(height > maxHeight)
 			{
 				console.log("img "+slideNumber+"  height>maxHeight"+"  width="+width+"   height="+height);	    
@@ -104,8 +102,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 				console.log("img "+slideNumber+"  adjusted width="+width+"  adjusted height="+height);	    
 				
 		   }	
-	
-	
+		
 		/* 	
 			// Check if the current width is larger than the max
 			if(width > maxWidth)
@@ -129,7 +126,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 			
 
 		      //---prepare to find out the text caption width
-			  //  So as to reposition the caption in central position
+			  //  So as to reposition the caption in a centralised position
 		      var curTxt=domCapObj.innerHTML;
 			  var curFontFam=$(domCapObj).css("font-family");
 			  var curFontSize=$(domCapObj).css("font-size"); // eg  15px   i.e with px
@@ -162,6 +159,8 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 
 };	//-------function imgWdHtSetCenter()----------
 
+
+ //----This is how to find the text width in px using jquery----
 //----------jquery way of finding text width
 // To call this jquery func ,     $('.classname').textWidth();
 //   font can be '15px arial'
