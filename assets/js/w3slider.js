@@ -147,7 +147,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 				  //----DISPLAY current img  slide-------------
 			  domSlideObj.style.display = "block"; 	
 			   //----display current DOT
-			  dots[slideNumber-1].className += " active";
+			  document.getElementsByClassName("dot")[slideNumber-1].className += " active";
 			
   			  //---display slider numbertext
 			  var numT=slideNumber+" / "+domNumObj.length;
