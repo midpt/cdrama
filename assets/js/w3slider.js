@@ -121,7 +121,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 			var parentwidth=$(domSlideObj).parent().width();
 			//var capwidth=$(domCapObj).innerWidth();
 			console.log("img "+slideNumber+"  Parent width="+parentwidth+"  img width="+newwidth);
-			var widthdiff=(parentwidth-newwidth)/2;
+			var widthdiff=((parentwidth-newwidth)/2).toFixed(2);
 			$(domSlideObj).css("margin-left",widthdiff);
 			console.log("img "+slideNumber+"  adjusted width="+width+"  adjusted height="+height+" margin-left="+widthdiff);	    
 			
