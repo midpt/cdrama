@@ -143,10 +143,12 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 		  
 		      var curTxt=domCapObj.innerHTML;
 		      var capwd=$(domCapObj).textWidth(curTxt,'15px arial');
+			  var capwdSet=capwd+24 ;// one char 8px,  24 is 3 additional chars
+			  var capwdSetStr=capwdSet+"px"
 			  
 		      console.log("caption width="+capwd);
 			  var capWdDiff=((parentwidth-capwd)/2);
-			  $(domCapObj).css("width",capwd+"px");	
+			  $(domCapObj).css("width",capwdSetStr);	
 			  $(domCapObj).css("left",capWdDiff);	
 			  
 		  
