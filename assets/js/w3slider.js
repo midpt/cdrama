@@ -129,28 +129,22 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 			  //----DISPLAY current img  slide-------------
 			  domSlideObj.style.display = "block"; 	
 			
-			  //----get caption text width
-		//	  var html_org = $(domCapObj).html();
-		//	  var html_calc = '<span>' + html_org + '</span>';
-		//	  $(domCapObj).html(html_calc);
-		//	  var capwidth= $(domCapObj).find('span:first').width();
-			
-		//	console.log("img "+slideIndex+"  Parent width="+parentwidth+"  capwidth="+capwidth);
-			
-		//	  var capWdDiff=(parentwidth-capwidth)/2;
-			  
-			//  $(domCapObj).css("margin-left",capWdDiff);		  
-		  
+  
+		      //---prepare to find out the text caption width
+			  //  So as to reposition the caption in central position
 		      var curTxt=domCapObj.innerHTML;
 			  var curFontFam=$(domCapObj).css("font-family");
 			  var curFontSize=$(domCapObj).css("font-size"); // eg  15px   i.e with px
 			  var fontstr=curFontSize+" "+curFontFam; // eg  15px arial
+			  //-----call jquery func  textWidth() and return the text width
 		      var capwd=$(domCapObj).textWidth(curTxt, fontstr);
 			  var capwdSet=capwd+32 ;// one char 8px,  32 is 4 additional chars
+			  //-----Note!!!  Do not forget the px unit
 			  var capwdSetStr=capwdSet+"px"
 			  
 			  
 		      console.log("caption width="+capwd+"    currentText="+curTxt+"   fontsize="+curFontSize);
+			  
 			  var capWdDiff=((parentwidth-capwd)/2);
 			  $(domCapObj).css("width",capwdSetStr);	
 			  $(domCapObj).css("left",capWdDiff);	
