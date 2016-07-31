@@ -35,6 +35,7 @@ function showSlides(n) {
   var imgg=document.getElementsByClassName("imgg");
   var dots = document.getElementsByClassName("dot");
   var cpTxts=document.getElementsByClassName("text");
+  var numTxts=document.getElementsByClassName("numbertext");
   if (n > slides.length) {slideNumber = 1} 
   if (n < 1) {slideNumber = slides.length}
  // -----  Hide ALL slides
@@ -58,7 +59,7 @@ function showSlides(n) {
   var cscr=imgg[slideNumber-1].getAttribute("src");
   console.log("current src="+cscr)
   
-  imgWdHtSetCenter(slides[slideNumber-1], cpTxts[slideNumber-1],imgg);
+  imgWdHtSetCenter(slides[slideNumber-1], cpTxts[slideNumber-1],imgg ,numTxts);
   
 }
  
@@ -68,7 +69,7 @@ function showSlides(n) {
 // eg domSlideObj=document.getElementsByTagName("myslides")[0]	
 // eg domCapObj=document.getElementsByTagName("text")[0]	
 // eg domImggObj=document.getElementsByClassName("imgg");
-function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
+function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 {
     var maxWidth = 640;//787; // change this to your need width for the image
     var maxHeight =480 ;//480;    // Max height for the image
@@ -149,7 +150,8 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 			   //----display current DOT
 			  dots[slideNumber-1].className += " active";
 			
-  			  
+  			  //---display slider numbertext
+			  domNumObj[slideNumber-1].innerHTML=slideNumber+" / "+domNumObj.length;
 		  
 	  });// end  create a new <img> tag
 	
