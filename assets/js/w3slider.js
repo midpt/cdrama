@@ -94,7 +94,8 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 			// Check if current height is larger than max
 //			if(height > maxHeight)
 //			{
-				console.log("img "+slideNumber+"  height>maxHeight"+"  width="+width+"   height="+height);	    
+                //-----Constant height, adjust width ------------ 
+				console.log("img "+slideNumber+"  constant Height adjust width to maintain aspect ratio."+"  width="+width+"   height="+height);	    
 				ratio = maxHeight / height; // get ratio for scaling image
 				$(domSlideObj).css("height", maxHeight);   // Set new height
 				$(domSlideObj).css("width", width * ratio);    // Scale width based on ratio
