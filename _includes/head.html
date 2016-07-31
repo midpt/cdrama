@@ -134,17 +134,17 @@
 
 /* Fading animation */
 .fade {
-  -webkit-animation: fade 12s 2s forwards;
+  -webkit-animation: fade 6s 2s forwards;  /*  you need forwards; else after ani it will disappear */
  /* -webkit-animation-duration: 1.5s;  */
-  -moz-animation: fade  12s 2s forwards;
+  -moz-animation: fade  6s 2s forwards;
 /*  -moz-animation-duration: 1.5s;   */
-  animation: fade  12s 2s forwards;
+  animation: fade  6s 2s forwards;
 /*  animation-duration: 1.5s;  */
 }
 
 @-webkit-keyframes fade {
   from {opacity: .4} 
-  to {opacity: 0.9}
+  to {opacity: 1}
 }
 
 @-moz-keyframes fade {
@@ -154,7 +154,7 @@
 
 @keyframes fade {
   from {opacity: .4} 
-  to {opacity:0.9}
+  to {opacity:1}
 }
 </style>
 {% endif %}
