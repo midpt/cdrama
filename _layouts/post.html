@@ -3,7 +3,12 @@
 
 <head> 
 {% include head.html %}
-{% if site.dropcap %}<style type="text/css">@media only screen and (min-width:43.75em){.notepad-post-content div>p:first-child:first-letter{float:left;font-size:4.688rem;line-height:4.375rem;padding-top:.25rem;padding-right:.5rem;padding-left:.188rem;font-family:serif}}</style>{% endif %}
+{% if site.dropcap %}
+  <style type="text/css">
+     @media only screen and (min-width:43.75em){
+	  .notepad-post-content div>p:first-child:first-letter{float:left;font-size:4.688rem;line-height:4.375rem;padding-top:.25rem;padding-right:.5rem;padding-left:.188rem;font-family:serif}}
+	  </style>
+{% endif %}
 </head>
 <body class="post-template" itemscope itemtype="http://schema.org/WebPage" style="background-image: url('{{ site.url }}/images/orient1.png'); background-repeat:repeat; ">  
 {% if page.imagefeature %}
@@ -21,7 +26,9 @@
                         <img src="{{ site.url }}/images/{{ site.logo }}" alt="Blog Logo" />
                     </a>
 
-                <div class="notepad-blog-menu">      
+                <div class="notepad-blog-menu"> 
+
+     <!-- on small mobile device, 3-horizontal lines will be shown to replace those menus text -->			
     <div class="notepad-mobile-menu show-for-small">
         <a href="#"><i class="fa fa-bars"></i></a>
     </div>
@@ -30,11 +37,13 @@
             <a href="#"><i class="fa fa-times"></i></a>
         </li>
 {% for link in site.links %}
-            <li>{% if link.external %}
+            <li>
+			   {% if link.external %}
                     <a href="{{ link.url }}">{{ link.title }}</a>
                 {% else %}
                     <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
-                {% endif %} </li>
+                {% endif %}
+		   </li>
 {% endfor %}            
            <!-- <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li> -->
     </ul>
