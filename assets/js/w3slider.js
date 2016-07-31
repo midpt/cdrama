@@ -1,32 +1,32 @@
 console.log("w3Slider loaded.")
 
-var slideIndex = 1; // slideIndex is 1-based
-showSlides(slideIndex);
+var slideNumber = 1; // slideNumber is 1-based
+showSlides(slideNumber);
 
 
 $(".prev").click(function(){
-    showSlides(slideIndex -= 1);
+    showSlides(slideNumber -= 1);
 });
 
 $(".next").click(function(){
-    showSlides(slideIndex += 1);
+    showSlides(slideNumber += 1);
 });
 
 
 $(".dot").click(function(){
-//slideIndex = $(this).index()+1;
-//setTimeout(function(){showSlides(slideIndex);},2000);
-  showSlides(slideIndex = $(this).index()+1);
-  console.log("dot no.="+slideIndex )
+//slideNumber = $(this).index()+1;
+//setTimeout(function(){showSlides(slideNumber);},2000);
+  showSlides(slideNumber = $(this).index()+1);
+  console.log("dot no.="+slideNumber )
 });
 
 
 function plusSlides(n) {
-  showSlides(slideIndex += n);
+  showSlides(slideNumber += n);
 }
 
 function currentSlide(n) {
-  showSlides(slideIndex = n);
+  showSlides(slideNumber = n);
 }
 
 function showSlides(n) {
@@ -35,8 +35,8 @@ function showSlides(n) {
   var imgg=document.getElementsByClassName("imgg");
   var dots = document.getElementsByClassName("dot");
   var cpTxts=document.getElementsByClassName("text");
-  if (n > slides.length) {slideIndex = 1} 
-  if (n < 1) {slideIndex = slides.length}
+  if (n > slides.length) {slideNumber = 1} 
+  if (n < 1) {slideNumber = slides.length}
  // -----  Hide ALL slides
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none"; 
@@ -44,21 +44,21 @@ function showSlides(n) {
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  //slides[slideIndex-1].style.display = "block"; 
+  //slides[slideNumber-1].style.display = "block"; 
 
   
  	  //----DISPLAY current img  slide
-	 // slides[slideIndex-1].style.display = "block"; 	 
+	 // slides[slideNumber-1].style.display = "block"; 	 
   
- // console.log("display slide="+slideIndex);
+ // console.log("display slide="+slideNumber);
    //----display current DOT
- // dots[slideIndex-1].className += " active";
+ // dots[slideNumber-1].className += " active";
   
   
-  var cscr=imgg[slideIndex-1].getAttribute("src");
+  var cscr=imgg[slideNumber-1].getAttribute("src");
   console.log("current src="+cscr)
   
-  imgWdHtSetCenter(slides[slideIndex-1], cpTxts[slideIndex-1],imgg);
+  imgWdHtSetCenter(slides[slideNumber-1], cpTxts[slideNumber-1],imgg);
   
 }
  
@@ -66,6 +66,8 @@ function showSlides(n) {
 
 //---adjust image size to the given width & height (including centralising)	
 // eg domSlideObj=document.getElementsByTagName("myslides")[0]	
+// eg domCapObj=document.getElementsByTagName("text")[0]	
+// eg domImggObj=document.getElementsByClassName("imgg");
 function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 {
     var maxWidth = 480;//787; // Max width for the image
@@ -78,29 +80,28 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 	//  We can create a img load event using a new image tag
     //  Create a new img tag obj.  Load the new img tag with our targetted image and wait for new img tag to load  so as to get its width n height
 	$("<img>") // Create a new <img>
-	  .attr("src", domImggObj[slideIndex-1].getAttribute("src")) // Copy the src attr from the target img  ie  domSlideObj
+	  .attr("src", domImggObj[slideNumber-1].getAttribute("src")) // Copy the src attr from the target img  ie  domSlideObj
 		.load(function() {
 		  width=this.width;
 		  height=this.height;
 		  //console.log("Width:  " + this.width);
 		  //console.log("Height: " + this.height);
-		  
-		   // var sldInx=slideIndex; // slideIndex is global and is 1-based
+
 			var totalImg=$(".imgg").length;
-			console.log("current image="+slideIndex+"/"+totalImg+"  width="+width+"   height="+height+"   maWidth="+maxWidth+"  maxHt="+maxHeight);
+			console.log("current image="+slideNumber+"/"+totalImg+"  width="+width+"   height="+height+"   maWidth="+maxWidth+"  maxHt="+maxHeight);
 			
 			// Check if current height is larger than max
 			// If Width is the priority, make sure 'if(width > maxWidth)' precedes 'if(height > maxHeight)'
 			// If Height is the priority, make sure  'if(height > maxHeight)'  precedes 'if(width > maxWidth)'
 			if(height > maxHeight)
 			{
-				console.log("img "+slideIndex+"  height>maxHeight"+"  width="+width+"   height="+height);	    
+				console.log("img "+slideNumber+"  height>maxHeight"+"  width="+width+"   height="+height);	    
 				ratio = maxHeight / height; // get ratio for scaling image
 				$(domSlideObj).css("height", maxHeight);   // Set new height
 				$(domSlideObj).css("width", width * ratio);    // Scale width based on ratio
 				width = width * ratio;    // Reset width to match scaled image
 				height = height * ratio;    // Reset height to match scaled image
-				console.log("img "+slideIndex+"  adjusted width="+width+"  adjusted height="+height);	    
+				console.log("img "+slideNumber+"  adjusted width="+width+"  adjusted height="+height);	    
 				
 		   }	
 	
@@ -109,20 +110,20 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 			// Check if the current width is larger than the max
 			if(width > maxWidth)
 			{
-				console.log("img "+slideIndex+"  width>maxWidth"+"  width="+width+"   height="+height);	    
+				console.log("img "+slideNumber+"  width>maxWidth"+"  width="+width+"   height="+height);	    
 				ratio = maxWidth / width;   // get ratio for scaling image
 				$(domSlideObj).css("width", maxWidth); // Set new width
 				$(domSlideObj).css("height", height * ratio);  // Scale height based on ratio
 				height = height * ratio;    // Reset height to match scaled image
 				width = width * ratio;    // Reset width to match scaled image
-				console.log("img "+slideIndex+"  adjusted width="+width+"  adjusted height="+height);	    		
+				console.log("img "+slideNumber+"  adjusted width="+width+"  adjusted height="+height);	    		
 			}
 		 */
  
 			var newwidth = width;//$(domSlideObj).width();
 			var parentwidth=$(domSlideObj).parent().width();
 			//var capwidth=$(domCapObj).innerWidth();
-			console.log("img "+slideIndex+"  Parent width="+parentwidth+"  img width="+newwidth);
+			console.log("img "+slideNumber+"  Parent width="+parentwidth+"  img width="+newwidth);
 			var widthdiff=(parentwidth-newwidth)/2;
 			$(domSlideObj).css("margin-left",widthdiff);
 			
@@ -149,7 +150,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 				  //----DISPLAY current img  slide-------------
 			  domSlideObj.style.display = "block"; 	
 			   //----display current DOT
-			  dots[slideIndex-1].className += " active";
+			  dots[slideNumber-1].className += " active";
 			
   			  
 		  
