@@ -92,8 +92,8 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 			console.log("current image="+slideNumber+"/"+totalImg+"  width="+width+"   height="+height+"   maWidth="+maxWidth+"  maxHt="+maxHeight);
 			
 			// Check if current height is larger than max
-			if(height > maxHeight)
-			{
+//			if(height > maxHeight)
+//			{
 				console.log("img "+slideNumber+"  height>maxHeight"+"  width="+width+"   height="+height);	    
 				ratio = maxHeight / height; // get ratio for scaling image
 				$(domSlideObj).css("height", maxHeight);   // Set new height
@@ -102,7 +102,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 				height = height * ratio;    // Reset height to match scaled image
 				console.log("img "+slideNumber+"  adjusted width="+width+"  adjusted height="+height);	    
 				
-		   }	
+//		   }	
 		
 		/* 	
 			// Check if the current width is larger than the max
