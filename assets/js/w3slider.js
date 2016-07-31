@@ -159,13 +159,12 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 
 //----------jquery way of finding text width
 // To this jquery func    eg     $('.classname').textWidth();
+
 $.fn.textWidth = function(){
-      var html_calc = $('<span>' + $(this).html() + '</span>');
-      html_calc.css('font-size',$(this).css('font-size')).hide();
-      html_calc.prependTo('body');
-      var width = html_calc.width();
-      html_calc.remove();
-      return width;
-    }
+        var w = $('body').append($('<span stlye="display:none;" id="textWidth"/>')).find('#textWidth').html($(this).html()[0]).width();
+        $('#textWidth').remove();
+        console.log(w);
+        return w;
+    };
 			 
 				 
