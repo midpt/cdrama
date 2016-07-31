@@ -151,7 +151,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 			   //----display current DOT
 			  dots[slideIndex-1].className += " active";
 			
-  			domSlideObj.style.opacity = "1"; 	  
+  			  
 		  
 	  });// end  create a new <img> tag
 	
