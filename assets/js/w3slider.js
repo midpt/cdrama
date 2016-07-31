@@ -143,9 +143,9 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 		  
 		      var curTxt=domCapObj.innerHTML;
 			  var curFontFam=$(domCapObj).css("font-family");
-			  var curFontSize=$(domCapObj).css("font-size");
-			  var fontstr=curFontSize+"px "+curFontFam;
-		      var capwd=$(domCapObj).textWidth(curTxt,'15px arial');
+			  var curFontSize=$(domCapObj).css("font-size"); // eg  15px   i.e with px
+			  var fontstr=curFontSize+" "+curFontFam; // eg  15px arial
+		      var capwd=$(domCapObj).textWidth(curTxt, fontstr);
 			  var capwdSet=capwd+32 ;// one char 8px,  32 is 4 additional chars
 			  var capwdSetStr=capwdSet+"px"
 			  
