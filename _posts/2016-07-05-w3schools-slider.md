@@ -13,16 +13,9 @@ comments: false
 featured: true
 w3Loaded: true
 ---
-<style>
-body{
-/*background-image: url('{{ site.url }}/images/orient1.png'); 
-background-repeat:repeat;  
-*/
 
-}
-</style>
    
-### Picture  carousel -  W3schools Sliders  3
+### Picture  carousel -  W3schools Sliders  1
 <div class="slideshow-container">
   <div class="mySlides fade">
     <div class="numbertext"></div>
@@ -48,6 +41,18 @@ background-repeat:repeat;
     <div class="text" >4</div>
   </div>
   
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img class="imgg" src="{{ site.url }}/images/costume3.jpg" >
+    <div class="text" >Costume 3</div>
+  </div> 
+ 
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img class="imgg" src="{{ site.url }}/images/costume4.jpg" >
+    <div class="text" >Costume 4</div>
+  </div>  
+  
   <a class="prev" >&#10094;</a>
   <a class="next" >&#10095;</a>
 </div>
@@ -56,6 +61,8 @@ background-repeat:repeat;
 <div style="text-align:center">
   <span class="dot" ></span> 
   <span class="dot" ></span> 
+  <span class="dot" ></span> 
+  <span class="dot" ></span>   
   <span class="dot" ></span> 
   <span class="dot" ></span>   
 </div>
