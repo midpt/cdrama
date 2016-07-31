@@ -22,30 +22,30 @@ background-repeat:repeat;
 }
 </style>
    
-### Picture  carousel -  W3schools Sliders  5
+### Picture  carousel -  W3schools Sliders  6
 <div class="slideshow-container">
   <div class="mySlides">
     <div class="numbertext">1 / 4</div>
     <img class="imgg" src="{{ site.url }}/images/fc1.jpg" >
-    <div class="captext" >Long Caption Text Text Text 1</div>
+    <div class="text" >Long Caption Text Text Text 1</div>
   </div>
 
   <div class="mySlides">
     <div class="numbertext">2 / 4</div>
     <img class="imgg" src="{{ site.url }}/images/kitchen_adventurer_lemon.jpg" >
-    <div class="captext" >Caption Two</div>
+    <div class="text" >Caption Two</div>
   </div>
 
   <div class="mySlides">
     <div class="numbertext">3 / 4</div>
     <img class="imgg"  src="{{ site.url }}/images/kitchen_adventurer_donut.jpg" >
-    <div class="captext" >Caption Three</div>
+    <div class="text" >Caption Three</div>
   </div>
 
    <div class="mySlides">
     <div class="numbertext">4 / 4</div>
     <img class="imgg" src="{{ site.url }}/images/tree1.jpg" >
-    <div class="captext" >4</div>
+    <div class="text" >4</div>
   </div>
   
   <a class="prev" >&#10094;</a>

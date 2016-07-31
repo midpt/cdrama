@@ -34,7 +34,7 @@ function showSlides(n) {
   var slides = document.getElementsByClassName("mySlides");
   var imgg=document.getElementsByClassName("imgg");
   var dots = document.getElementsByClassName("dot");
-  var cpTxts=document.getElementsByClassName("captext");
+  var cpTxts=document.getElementsByClassName("text");
   if (n > slides.length) {slideIndex = 1} 
   if (n < 1) {slideIndex = slides.length}
  //  Hide all slides");
@@ -144,8 +144,8 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 		      var capwd=$(domCapObj).textWidth();
 			  
 		      console.log("caption width="+capwd);
-			  var capWdDiff=((parentwidth-capwd)/2)-300;
-			  $(domCapObj).css("margin-left",capWdDiff);	
+			  var capWdDiff=((parentwidth-capwd)/2);
+			//  $(domCapObj).css("margin-left",capWdDiff);	
 			  
 		  
 		  
