@@ -142,12 +142,15 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 			//  $(domCapObj).css("margin-left",capWdDiff);		  
 		  
 		      var curTxt=domCapObj.innerHTML;
+			  var curFontFam=$(domCapObj).css("font-family");
+			  var curFontSize=$(domCapObj).css("font-size");
+			  var fontstr=curFontSize+"px "+curFontFam;
 		      var capwd=$(domCapObj).textWidth(curTxt,'15px arial');
 			  var capwdSet=capwd+32 ;// one char 8px,  32 is 4 additional chars
 			  var capwdSetStr=capwdSet+"px"
 			  
 			  
-		      console.log("caption width="+capwd+"    currentText="+curTxt);
+		      console.log("caption width="+capwd+"    currentText="+curTxt+"   fontsize="+curFontSize);
 			  var capWdDiff=((parentwidth-capwd)/2);
 			  $(domCapObj).css("width",capwdSetStr);	
 			  $(domCapObj).css("left",capWdDiff);	
@@ -163,8 +166,8 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 };	//-------function imgWdHtSetCenter()----------
 
 //----------jquery way of finding text width
-// To this jquery func    eg     $('.classname').textWidth();
-
+// To call this jquery func ,     $('.classname').textWidth();
+//   font can be '15px arial'
 $.fn.textWidth = function(text, font) {
     if (!$.fn.textWidth.fakeEl) $.fn.textWidth.fakeEl = $('<span>').hide().appendTo(document.body);
     $.fn.textWidth.fakeEl.text(text || this.val() || this.text()).css('font', font || this.css('font'));
