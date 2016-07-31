@@ -141,9 +141,12 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 			//  $(domCapObj).css("margin-left",capWdDiff);		  
 		  
 		  
-		      //$(domCapObj).css('text-align','center');
+		      var capwd=$(domCapObj).textWidth();
 			  
-		      console.log("text="+$(domCapObj).html())
+		      console.log("caption width="+capwd);
+			  var capWdDiff=(parentwidth-capwd)/2;
+			  $(domCapObj).css("margin-left",capWdDiff);	
+			  
 		  
 		  
 	  });// end  create a new <img> tag
@@ -152,5 +155,16 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj)
 	
 
 
-};	//-------function imgWdHtSetCenter()----------			 
+};	//-------function imgWdHtSetCenter()----------
+
+//----------jquery way of finding text width
+// To this jquery func    eg     $('.classname').textWidth();
+$.fn.textWidth = function(){
+  var sensor = $('<div />').css({margin: 0, padding: 0});
+  $(this).append(sensor);
+  var width = sensor.width();
+  sensor.remove();
+  return width;
+};
+			 
 				 
