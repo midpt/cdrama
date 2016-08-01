@@ -135,7 +135,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 			//var capwidth=$(domCapObj).innerWidth();
 			console.log("img "+slideNumber+"  Parent width="+parentwidth+"  adjusted width="+newwidth);
 			var widthdiff=((parentwidth-newwidth)/2).toFixed(2);
-			$(domSlideObj).css("margin-left",widthdiff+"px"); // do not forget 'px'
+			$(domSlideObj).css("margin-left",widthdiff+"px"); // myslides position is relative, hence use margin-left and not 'left'
 			console.log("img "+slideNumber+"  adjusted width="+width+"  adjusted height="+height+" margin-left widthdiff="+widthdiff);	    
 			
 
@@ -147,13 +147,13 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 			  var fontstr=curFontSize+" "+curFontFam; // eg  15px arial
 			  //-----call jquery func  textWidth() and return the text width
 		      var capwd=$(domCapObj).textWidth(curTxt, fontstr);
-			  var capwdSet=capwd+24 ;// one char 8px,  24 is 3 additional chars
+			  var capwdSet=capwd+32 ;// one char 8px,  32 is 4 additional chars
 			  //-----Note!!!  Do not forget the px unit
 			  var capwdSetStr=capwdSet+"px";
 			  			  
 			  var capWdDiff=((parentwidth-capwdSet)/2).toFixed(2);
 			  $(domCapObj).css("width",capwdSetStr);	
-			  $(domCapObj).css("left",capWdDiff+"px");	
+			  $(domCapObj).css("left",capWdDiff+"px");	//caption class is 'text' has been set up as position: absolute . refer to head.html
 			  
 				  //----DISPLAY current img  slide-------------
 			  domSlideObj.style.display = "block"; 	
