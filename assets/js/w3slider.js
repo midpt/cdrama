@@ -1,7 +1,7 @@
 console.log("w3Slider loaded.")
 
 var slideNumber = 1; // slideNumber is 1-based
-
+/* 
 //----create span dot  tag
 var sld= document.getElementsByClassName("mySlides");
 var spandotstr=""
@@ -11,7 +11,9 @@ var spandotstr=""
 var dtparent=document.getElementById("dot-container");
 dtparent.innerHTML=spandotstr;
 
-showSlides(slideNumber);
+ */
+ 
+ showSlides(slideNumber);
 
 
 $(".prev").click(function(){
