@@ -15,7 +15,7 @@ w3Loaded: true
 ---
 
    
-### Picture  carousel -  W3schools Sliders  6
+### Picture  carousel -  W3schools Sliders  7
 <div class="slideshow-container">
 
   <div class="mySlides fade">
