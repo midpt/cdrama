@@ -1,6 +1,16 @@
 console.log("w3Slider loaded.")
 
 var slideNumber = 1; // slideNumber is 1-based
+
+//----create span dot  tag
+var sld= document.getElementsByClassName("mySlides");
+var spandotstr=""
+ for (i = 0; i < sld.length; i++) {
+      spandotstr+="<span class='dot'></span>"+"\n"
+  }
+var dtparent=document.getElementById("dot-container");
+dtparent.innerHTML=spandotstr;
+
 showSlides(slideNumber);
 
 

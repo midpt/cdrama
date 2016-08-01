@@ -15,7 +15,7 @@ w3Loaded: true
 ---
 
    
-### Picture  carousel -  W3schools Sliders  5
+### Picture  carousel -  W3schools Sliders  1
 <div class="slideshow-container">
   <div class="mySlides fade">
     <div class="numbertext"></div>
@@ -58,13 +58,8 @@ w3Loaded: true
 </div>
 <br>
 
-<div style="text-align:center">
-  <span class="dot" ></span> 
-  <span class="dot" ></span> 
-  <span class="dot" ></span> 
-  <span class="dot" ></span>   
-  <span class="dot" ></span> 
-  <span class="dot" ></span>   
+<div id="dot-container" style="text-align:center">
+ 
 </div>
 
    
