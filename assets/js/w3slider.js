@@ -154,7 +154,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 			  
 			  var capWdDiff=((parentwidth-capwd)/2);
 			  $(domCapObj).css("width",capwdSetStr);	
-			  $(domCapObj).css("left",capWdDiff+"px");	
+			  $(domCapObj).css("margin-left",capWdDiff+"px");	
 			  
 				  //----DISPLAY current img  slide-------------
 			  domSlideObj.style.display = "block"; 	
