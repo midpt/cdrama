@@ -106,7 +106,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 //			{
                 //-----Constant height, adjust width ------------ 
 				console.log("------ Set constant Height with adjusted width to maintain aspect ratio  maxWidth="+maxWidth+"  maxHeight="+maxHeight);
-				console.log("img "+slideNumber+" Set constant Height with adjusted width to maintain aspect ratio."+" picture width="+width+" picture  height="+height);	    
+				console.log("img "+slideNumber+"  picture width="+width+"  picture height="+height);	    
 				ratio = maxHeight / height; // get ratio for scaling image
 				$(domSlideObj).css("height", maxHeight);   // Set new height
 				$(domSlideObj).css("width", width * ratio);    // Scale width based on ratio
@@ -147,13 +147,13 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 			  var fontstr=curFontSize+" "+curFontFam; // eg  15px arial
 			  //-----call jquery func  textWidth() and return the text width
 		      var capwd=$(domCapObj).textWidth(curTxt, fontstr);
-			  var capwdSet=capwd+32 ;// one char 8px,  32 is 4 additional chars
+			  var capwdSet=capwd+24 ;// one char 8px,  24 is 3 additional chars
 			  //-----Note!!!  Do not forget the px unit
 			  var capwdSetStr=capwdSet+"px";
 			  			  
 			  var capWdDiff=((parentwidth-capwdSet)/2).toFixed(2);
 			  $(domCapObj).css("width",capwdSetStr);	
-			  $(domCapObj).css("margin-left",capWdDiff+"px");	
+			  $(domCapObj).css("left",capWdDiff+"px");	
 			  
 				  //----DISPLAY current img  slide-------------
 			  domSlideObj.style.display = "block"; 	
