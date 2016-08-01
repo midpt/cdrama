@@ -164,7 +164,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
   			  //---display slider numbertext
 			  var numT=slideNumber+" / "+domNumObj.length;
 			  domNumObj[slideNumber-1].innerHTML=numT;
-		      console.log("caption width="+capwd+"    currentText="+curTxt+"   fontsize="+curFontSize+"   number text="+numT);
+		      console.log("caption width="+capwd+"    currentText="+curTxt+"   fontsize="+curFontSize+"   number text="+numT+"  capWdDiff="+capWdDiff);
 		  
 	  });// end  create a new <img> tag
 	
