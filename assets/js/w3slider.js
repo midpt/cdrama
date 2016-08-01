@@ -105,7 +105,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 //			if(height > maxHeight)
 //			{
                 //-----Constant height, adjust width ------------ 
-				console.log("img "+slideNumber+"  constant Height adjust width to maintain aspect ratio."+"  width="+width+"   height="+height);	    
+				console.log("img "+slideNumber+" Set constant Height with adjusted width to maintain aspect ratio."+" picture width="+width+" picture  height="+height);	    
 				ratio = maxHeight / height; // get ratio for scaling image
 				$(domSlideObj).css("height", maxHeight);   // Set new height
 				$(domSlideObj).css("width", width * ratio);    // Scale width based on ratio
@@ -135,7 +135,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 			console.log("img "+slideNumber+"  Parent width="+parentwidth+"  img width="+newwidth);
 			var widthdiff=((parentwidth-newwidth)/2).toFixed(2);
 			$(domSlideObj).css("margin-left",widthdiff);
-			console.log("img "+slideNumber+"  adjusted width="+width+"  adjusted height="+height+" margin-left="+widthdiff);	    
+			console.log("img "+slideNumber+"  adjusted width="+width+"  adjusted height="+height+" margin-left widthdiff="+widthdiff);	    
 			
 
 		      //---prepare to find out the text caption width
