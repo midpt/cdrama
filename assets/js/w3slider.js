@@ -81,7 +81,7 @@ function showSlides(n) {
 // eg domImggObj=document.getElementsByClassName("imgg");
 function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 {
-    var maxWidth = 640;//787; // change this to your need width for the image
+    var maxWidth = 640;//787; // change this to your required  width for the image
     var maxHeight =480 ;//480;    // Max height for the image
     var ratio = 0;  // Used for aspect ratio
     var width =0;// $(domSlideObj).width();    // Current image width
@@ -93,8 +93,8 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 	$("<img>") // Create a new <img>
 	  .attr("src", domImggObj[slideNumber-1].getAttribute("src")) // Copy the src attr from the target img  ie  domSlideObj
 		.load(function() {
-		  width=this.width;
-		  height=this.height;
+		  width=this.width;  // photo original width
+		  height=this.height;  // photo original height
 		  //console.log("Width:  " + this.width);
 		  //console.log("Height: " + this.height);
 
@@ -105,6 +105,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 //			if(height > maxHeight)
 //			{
                 //-----Constant height, adjust width ------------ 
+				console.log("------ Set constant Height with adjusted width to maintain aspect ratio  maxWidth="+maxWidth+"  maxHeight="+maxHeight);
 				console.log("img "+slideNumber+" Set constant Height with adjusted width to maintain aspect ratio."+" picture width="+width+" picture  height="+height);	    
 				ratio = maxHeight / height; // get ratio for scaling image
 				$(domSlideObj).css("height", maxHeight);   // Set new height
@@ -132,9 +133,9 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 			var newwidth = width;//$(domSlideObj).width();
 			var parentwidth=$(domSlideObj).parent().width();
 			//var capwidth=$(domCapObj).innerWidth();
-			console.log("img "+slideNumber+"  Parent width="+parentwidth+"  img width="+newwidth);
+			console.log("img "+slideNumber+"  Parent width="+parentwidth+"  adjusted width="+newwidth);
 			var widthdiff=((parentwidth-newwidth)/2).toFixed(2);
-			$(domSlideObj).css("margin-left",widthdiff);
+			$(domSlideObj).css("margin-left",widthdiff+"px");
 			console.log("img "+slideNumber+"  adjusted width="+width+"  adjusted height="+height+" margin-left widthdiff="+widthdiff);	    
 			
 
