@@ -180,5 +180,12 @@ $.fn.textWidth = function(text, font) {
     $.fn.textWidth.fakeEl.text(text || this.val() || this.text()).css('font', font || this.css('font'));
     return $.fn.textWidth.fakeEl.width();
 };
-			 
-				 
+	
+//-------Browser resize Event handler-
+
+$(window).resize(function(){
+       showSlides(slideNumber);
+		
+});
+
+	
