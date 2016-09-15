@@ -39,12 +39,12 @@ html, body, .notepad-post-container, .notepad-post-header {
   /* -------------------------- */
   /* Delays */ }
   .post-template .notepad-blog-menu .notepad-mobile-menu a {
-    color: white; }
+    color: grey; }
     .post-template .notepad-blog-menu .notepad-mobile-menu a:hover {
-      color: white; }
+      color: grey; }
   @media only screen and (min-width: 40.063em) {
     .post-template .notepad-blog-menu ul li a {
-      color: white; }
+      color: grey; }
       .post-template .notepad-blog-menu ul li a:hover {
         border-bottom: 0.1875rem solid white; } }
   .post-template .notepad-post-header {
