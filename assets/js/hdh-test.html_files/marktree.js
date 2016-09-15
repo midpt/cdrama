@@ -13,7 +13,12 @@
  * Miika Nurminen, 12.7.2004.
  */
 
+ 
+ 
 /* cross-browser (tested with ie5, mozilla 1 and opera 5) keypress detection */
+
+alert("asdf");
+
 function get_keycode(evt) {
   // IE
     code = document.layers ? evt.which
