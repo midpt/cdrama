@@ -32,7 +32,7 @@ header, main, footer {
   z-index: 1; }
 
 main, .notepad-share-icons, .notepad-disqus {
-  background: white; }
+  background: grey; }
 
 .animated-post {
   background: transparent; }
@@ -81,7 +81,7 @@ main, .notepad-share-icons, .notepad-disqus {
       text-align: center;
       padding: 0.3125rem; }
       .notepad-blog-menu ul li a {
-        color: white;
+        color: grey;
         display: block;
         width: 100%;
         height: 100%;
@@ -89,7 +89,7 @@ main, .notepad-share-icons, .notepad-disqus {
       .notepad-blog-menu ul li.notepad-mobile-close-btn {
         padding-right: 1.25rem; }
         .notepad-blog-menu ul li.notepad-mobile-close-btn a {
-          color: white; }
+          color: grey; }
     .notepad-blog-menu ul.opened {
       -webkit-transform: translate3d(0, 0, 0);
       -ms-transform: translate3d(0, 0, 0);
@@ -134,7 +134,7 @@ main, .notepad-share-icons, .notepad-disqus {
               border-bottom: 0.1875rem solid #e51843; } }
 
 .notepad-site-head .notepad-site-head-menu {
-  background: white; }
+  background: grey; }
   .notepad-site-head .notepad-site-head-menu .notepad-blog-logo {
     display: inline-block;
     max-height: 5rem; }
@@ -150,17 +150,17 @@ main, .notepad-share-icons, .notepad-disqus {
     font-family: "Montserrat", sans-serif;
     font-size: 1.625rem;
     font-weight: 700;
-    color: Beige; /*  black; */
+    color: black; /*  black; */
     text-transform: uppercase;
     letter-spacing: -0.0625rem; }
     .notepad-site-head .notepad-site-head-menu .title a {
-      color: Beige; /*  black; */ }
+      color: black; /*  black; */ }
       .notepad-site-head .notepad-site-head-menu .title a:hover {
-        color: Beige; /*  black; */ }
+        color: black; /*  black; */ }
 .notepad-site-head .notepad-site-head-content {
   width: 100%;
   text-align: center;
-  background-color: Beige; /*  black; */
+  background-color: Grey; /*  black; */
   background-size: cover; }
   .notepad-site-head .notepad-site-head-content.with-bg-cover {
     background-color: rgba(0, 0, 0, 0.7); }
@@ -172,7 +172,7 @@ main, .notepad-share-icons, .notepad-disqus {
   .notepad-site-head .notepad-site-head-content h1, .notepad-site-head .notepad-site-head-content h2 {
     margin: 0;
     padding: 0;
-    color: white;
+    color: grey;
     text-transform: uppercase; }
   .notepad-site-head .notepad-site-head-content h1 {
     padding-top: 4.375rem;
@@ -304,7 +304,7 @@ main, .notepad-share-icons, .notepad-disqus {
     margin-right: auto;
     margin-top: 1.5625rem;
     font-size: 0.8125rem;
-    color: white;
+    color: grey;
     background-color: Beige; /*  black; */
     font-weight: 600;
     padding: 0.625rem 2.5rem;
@@ -361,14 +361,14 @@ nav.pagination {
     padding: 0;
     text-align: center; }
   .notepad-site-footer .copyright {
-    color: white;
+    color: grey;
     float: none;
     text-align: center;
     font-size: 0.8125rem;
     padding-top: 3.75rem;
     padding-bottom: 1.25rem; }
     .notepad-site-footer .copyright a {
-      color: white; }
+      color: grey; }
   .notepad-site-footer .social-icons {
     text-align: center;
     float: none;
@@ -797,7 +797,7 @@ figcaption {
   .mfp-preloader a {
     color: #cccccc; }
     .mfp-preloader a:hover {
-      color: white; }
+      color: grey; }
 
 .mfp-s-ready .mfp-preloader {
   display: none; }
@@ -833,7 +833,7 @@ button::-moz-focus-inner {
   opacity: 0.65;
   filter: alpha(opacity=65);
   padding: 0 0 18px 10px;
-  color: white;
+  color: grey;
   font-style: normal;
   font-size: 28px;
   font-family: Arial, Baskerville, monospace; }
@@ -847,7 +847,7 @@ button::-moz-focus-inner {
   color: #333333; }
 
 .mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
-  color: white;
+  color: grey;
   right: -6px;
   text-align: right;
   padding-right: 6px;
@@ -900,7 +900,7 @@ button::-moz-focus-inner {
 .mfp-arrow-left {
   left: 0; }
   .mfp-arrow-left:after, .mfp-arrow-left .mfp-a {
-    border-right: 17px solid white;
+    border-right: 17px solid grey;
     margin-left: 31px; }
   .mfp-arrow-left:before, .mfp-arrow-left .mfp-b {
     margin-left: 25px;
@@ -909,7 +909,7 @@ button::-moz-focus-inner {
 .mfp-arrow-right {
   right: 0; }
   .mfp-arrow-right:after, .mfp-arrow-right .mfp-a {
-    border-left: 17px solid white;
+    border-left: 17px solid grey;
     margin-left: 39px; }
   .mfp-arrow-right:before, .mfp-arrow-right .mfp-b {
     border-left: 27px solid #3f3f3f; }
