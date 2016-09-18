@@ -12,31 +12,33 @@ chart:
 comments: false
 featured: true
 ---
-### Sun Jin Moon,sharing with Global Top Gun participants on 2 August 2016
+### 11Sun Jin Moon,sharing with Global Top Gun participants on 2 August 2016
 
 Sun Jin Moon, International President of FFWPU speaks  at “2016 Global Top Gun Youth Workshop” -   https://vimeo.com/177675477
 
 #### Highlights
 
-[Experience with TF](https://vimeo.com/177675477#t=53m1s)
+[Experience with TF](https://vimeo.com/177675477#t=53m1s){:target="_blank"}
 
-[About TM ](https://vimeo.com/177675477#t=59m22s)
+[About TM ](https://vimeo.com/177675477#t=59m22s){:target="_blank"}
 
-[On What kind of Parent child relationship True Parents want](https://vimeo.com/177675477#t=1h10m0s)
+[On What kind of Parent child relationship True Parents want](https://vimeo.com/177675477#t=1h10m0s){:target="_blank"}
 
-[On True Father wanted her to adopt a dog to develop parental heart as she has no children](https://vimeo.com/177675477#1h12m5s)
+[On True Father wanted her to adopt a dog to develop parental heart as she has no children](https://vimeo.com/177675477#t=1h12m5s){:target="_blank"}
 
-[Meditation](https://vimeo.com/177675477#t=1h22m11s)
+[Meditation](https://vimeo.com/177675477#t=1h22m11s){:target="_blank"}
 
-[Featuring Humble and kind](https://vimeo.com/177675477#t=1h34m1s)  
-
-[Featuring Humble and kind by Tim McGraw](https://www.youtube.com/watch?v=awzNHuGqoMc)
-
-[What to talk to blessed children](https://vimeo.com/177675477#t=1h38m33s)
-
-[Korean exercise song Bounce (with UPA dancers)](https://vimeo.com/177675477#t=1h43m12s)
+[Featuring Humble and kind](https://vimeo.com/177675477#t=1h34m1s)  {:target="_blank"}
 
 
+[What to talk to blessed children](https://vimeo.com/177675477#t=1h38m33s){:target="_blank"}
+
+[Korean exercise song Bounce (with UPA dancers)](https://vimeo.com/177675477#t=1h43m12s){:target="_blank"}
+
+
+#### More on Humble and Kind as introduced by Sun Jin Nim
+
+[Featuring Humble and kind by Tim McGraw](https://www.youtube.com/watch?v=awzNHuGqoMc){:target="_blank"}
    
 
 
