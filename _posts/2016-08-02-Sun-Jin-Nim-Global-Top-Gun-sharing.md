@@ -12,7 +12,7 @@ chart:
 comments: false
 featured: true
 ---
-### 11Sun Jin Moon,sharing with Global Top Gun participants on 2 August 2016
+### 33Sun Jin Moon,sharing with Global Top Gun participants on 2 August 2016
 
 
   
@@ -20,6 +20,8 @@ featured: true
 <div class="small-9 small-centered columns">
 
 <button onclick="javascript: document.getElementById('ifrm').setAttribute('src', 'https://player.vimeo.com/video/177675477?t=53m1s&autoplay=1')">Sun Jin Nim experience with TF</button>     
+<button onclick="javascript: document.getElementById('ifrm').setAttribute('src', 'https://player.vimeo.com/video/177675477?t=59m22s&autoplay=1')">Sun Jin Nim on TM</button>     
+<button onclick="javascript: document.getElementById('ifrm').setAttribute('src', 'https://player.vimeo.com/video/177675477?t=1h10m0s&autoplay=1')">Sun Jin Nim on What kind of Parent child relationship True Parents want</button>     
 
 
 	<center>
