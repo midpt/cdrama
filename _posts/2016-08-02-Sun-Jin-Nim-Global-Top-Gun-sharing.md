@@ -19,7 +19,7 @@ featured: true
      
 <div class="small-9 small-centered columns">
 
-<button onclick="javascript: getElementById('ifrm').setAttribute('src', 'https://vimeo.com/177675477#t=53m1s')">Sun Jin Nim experience with TF</button>     
+   
 
 
 	<center>
