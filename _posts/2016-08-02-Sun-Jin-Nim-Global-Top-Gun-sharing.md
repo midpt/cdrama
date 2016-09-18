@@ -15,25 +15,13 @@ featured: true
 ### Playing MP4 Video using HTML5 video tag
 
 
-
-{% highlight html %}
-<div class="small-9 small-centered columns">
-	<center>
-		<video width="420" height="315" controls="controls" allowfullscreen="true" poster="">
-			<source src="https://vimeo.com/177675477" type="video/mp4">
-		</video> 
-	</center>
-</div>
-
-{% endhighlight %}
     
   
      
 <div class="small-9 small-centered columns">
 	<center>
-		<video width="420" height="315" controls="controls" allowfullscreen="true" poster="">
-			<source src="https://vimeo.com/177675477" type="video/mp4">
-		</video> 
+<iframe src="https://player.vimeo.com/video/177675477" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/177675477">Sun Jin Moon, International President of FFWPU with participants of 2016 Global Top Gun Youth Workshop (August 2, 2016)</a> from <a href="https://vimeo.com/ipeacetv">PeaceTV</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 	</center>
 </div>
    
