@@ -12,14 +12,14 @@ chart:
 comments: false
 featured: true
 ---
-### 11Sun Jin Moon,sharing with Global Top Gun participants on 2 August 2016
+### 22Sun Jin Moon,sharing with Global Top Gun participants on 2 August 2016
 
 
   
      
 <div class="small-9 small-centered columns">
 
-<button onclick="javascript: document.getElementById('ifrm').setAttribute('src', 'https://vimeo.com/177675477#t=53m1s')">Sun Jin Nim experience with TF</button>     
+<button onclick="javascript: document.getElementById('ifrm').setAttribute('src', 'https://vimeo.com/177675477#t=53m1s&autoplay=1')">Sun Jin Nim experience with TF</button>     
 
 
 	<center>
