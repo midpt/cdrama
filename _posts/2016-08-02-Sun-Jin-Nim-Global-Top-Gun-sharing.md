@@ -5,7 +5,7 @@ description: "Sun Jin Moon, International President of FFWPU sharing with Global
 headline: 
 modified: 2016-08-02
 category: webdevelopment
-tags: [video, mp4,flex-video]
+tags: [video]
 imagefeature: 
 mathjax: 
 chart: 
@@ -15,7 +15,7 @@ featured: true
 ### Sun Jin Moon,sharing with Global Top Gun participants on 2 August 2016
 
 
-<button onclick="getElementById('ifrm').setAttribute('src', 'https://vimeo.com/177675477#t=53m1s')">Sun Jin Nim experience with TF</button>     
+<button onclick="javascript: getElementById('ifrm').setAttribute('src', 'https://vimeo.com/177675477#t=53m1s')">Sun Jin Nim experience with TF</button>     
   
      
 <div class="small-9 small-centered columns">
