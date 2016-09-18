@@ -12,7 +12,7 @@ chart:
 comments: false
 featured: true
 ---
-### 11Sun Jin Moon,sharing with Global Top Gun participants on 2 August 2016
+### 88Sun Jin Moon,sharing with Global Top Gun participants on 2 August 2016
 
 
   
@@ -22,7 +22,7 @@ featured: true
 <button onclick="javascript: document.getElementById('ifrm').setAttribute('src', 'https://player.vimeo.com/video/177675477?t=53m1s&autoplay=1')">Sun Jin Nim experience with TF</button>     
 <button onclick="javascript: document.getElementById('ifrm').setAttribute('src', 'https://player.vimeo.com/video/177675477?t=59m22s&autoplay=1')">Sun Jin Nim on TM</button>     
 <button onclick="javascript: document.getElementById('ifrm').setAttribute('src', 'https://player.vimeo.com/video/177675477?t=1h10m0s&autoplay=1')">Sun Jin Nim on What kind of Parent child relationship True Parents want</button>     
-<button onclick="javascript: document.getElementById('ifrm').setAttribute('src', 'https://player.vimeo.com/video/177675477?t=1h12m5s&autoplay=1')">Sun Jin Nim on True Father wanted her to adopt a dog to develop parental heart as she has no children</button>     
+<button onclick="javascript: document.getElementById('ifrm').setAttribute('src', 'https://player.vimeo.com/video/177675477?start=1h12m5s&autoplay=1')">Sun Jin Nim on True Father wanted her to adopt a dog to develop parental heart as she has no children</button>     
 
 
 	<center>
