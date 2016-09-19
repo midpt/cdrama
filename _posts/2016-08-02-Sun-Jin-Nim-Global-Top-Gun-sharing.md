@@ -30,16 +30,16 @@ Click the below link to view the topic of interest.
 
 [Meditation](https://vimeo.com/177675477#t=1h22m11s){:target="_blank"}
 
-[Featuring Humble and kind](https://vimeo.com/177675477#t=1h34m1s){:target="_blank"}
+[Featuring Humble and kind song](https://vimeo.com/177675477#t=1h34m1s){:target="_blank"}
 
 [What to talk to blessed children](https://vimeo.com/177675477#t=1h38m33s){:target="_blank"}
 
 [Korean exercise song Bounce (with UPA dancers)](https://vimeo.com/177675477#t=1h43m12s){:target="_blank"}
 
 
-#### More on Humble and Kind song as highlighted by Sun Jin Nim
+#### Humble and Kind song in Youtube
 
-[Featuring Humble and kind by Tim McGraw](https://www.youtube.com/watch?v=awzNHuGqoMc){:target="_blank"}
+[Humble and kind by Tim McGraw](https://www.youtube.com/watch?v=awzNHuGqoMc){:target="_blank"}
    
 
 
