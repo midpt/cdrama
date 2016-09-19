@@ -12,7 +12,7 @@ chart:
 comments: false
 featured: true
 ---
-### 11Sun Jin Moon,sharing with Global Top Gun participants on 2 August 2016
+### 2Sun Jin Moon,sharing with Global Top Gun participants on 2 August 2016
 
 Sun Jin Moon, International President of FFWPU speaks  at “2016 Global Top Gun Youth Workshop” -   https://vimeo.com/177675477
 
