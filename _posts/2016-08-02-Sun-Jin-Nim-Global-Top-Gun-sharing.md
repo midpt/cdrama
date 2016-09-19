@@ -12,7 +12,7 @@ chart:
 comments: false
 featured: true
 ---
-### 2Sun Jin Moon,sharing with Global Top Gun participants on 2 August 2016
+### Sun Jin Moon,sharing with Global Top Gun participants on 2 August 2016
 
 Sun Jin Moon, International President of FFWPU speaks  at “2016 Global Top Gun Youth Workshop” -   https://vimeo.com/177675477
 
@@ -28,7 +28,7 @@ Sun Jin Moon, International President of FFWPU speaks  at “2016 Global Top Gun
 
 [Meditation](https://vimeo.com/177675477#t=1h22m11s){:target="_blank"}
 
-[Featuring Humble and kind](https://vimeo.com/177675477#t=1h34m1s)  {:target="_blank"}
+[Featuring Humble and kind](https://vimeo.com/177675477#t=1h34m1s){:target="_blank"}
 
 
 [What to talk to blessed children](https://vimeo.com/177675477#t=1h38m33s){:target="_blank"}
@@ -36,7 +36,7 @@ Sun Jin Moon, International President of FFWPU speaks  at “2016 Global Top Gun
 [Korean exercise song Bounce (with UPA dancers)](https://vimeo.com/177675477#t=1h43m12s){:target="_blank"}
 
 
-#### More on Humble and Kind as introduced by Sun Jin Nim
+#### More on Humble and Kind as highlighted by Sun Jin Nim
 
 [Featuring Humble and kind by Tim McGraw](https://www.youtube.com/watch?v=awzNHuGqoMc){:target="_blank"}
    
