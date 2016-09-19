@@ -126,6 +126,8 @@ prose:
               value: psychology
             - name: "Interesting"
               value: interesting
+			- name: "Spiritual"
+			  value: spiritual
             - name: "Web-Development"
               value: webdevelopment
           alterable: true

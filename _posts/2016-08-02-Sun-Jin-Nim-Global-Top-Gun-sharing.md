@@ -4,7 +4,7 @@ title:
 description: "Sun Jin Moon, International President of FFWPU sharing with Global Top Gun participants"
 headline: 
 modified: 2016-08-02
-category: webdevelopment
+category: spiritual
 tags: [video]
 imagefeature: 
 mathjax: 
