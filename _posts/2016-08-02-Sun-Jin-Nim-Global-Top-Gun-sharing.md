@@ -36,7 +36,7 @@ Sun Jin Moon, International President of FFWPU speaks  at “2016 Global Top Gun
 [Korean exercise song Bounce (with UPA dancers)](https://vimeo.com/177675477#t=1h43m12s){:target="_blank"}
 
 
-#### More on Humble and Kind as highlighted by Sun Jin Nim
+#### More on Humble and Kind song as highlighted by Sun Jin Nim
 
 [Featuring Humble and kind by Tim McGraw](https://www.youtube.com/watch?v=awzNHuGqoMc){:target="_blank"}
    
