@@ -14,7 +14,7 @@ featured: true
 ---
 ### Arcanjo Espinoba - The first Unificationist who completed Tribal Messiah
   
-[view video](https://vimeo.com/26050340#t=1m6s)  
+[view video](https://vimeo.com/26050340#t=1m6s){:target="_blank"}  
   
 Testimony of Arcanjo Espindola
 Tribal Messiah Ministry
