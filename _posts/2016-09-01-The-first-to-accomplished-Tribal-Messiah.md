@@ -5,7 +5,7 @@ description: "The first Unificationist who completed Tribal Messiah"
 headline: 
 modified: 2016-09-09
 category: spiritual
-tags: [video]
+tags: [hdh condition sickness poor ]
 imagefeature: 
 mathjax: 
 chart: 
@@ -13,6 +13,8 @@ comments: false
 featured: true
 ---
 ### Arcanjo Espinoba - The first Unificationist who completed Tribal Messiah
+  
+[view video](https://vimeo.com/26050340#t=1m6s)  
   
 Testimony of Arcanjo Espindola
 Tribal Messiah Ministry
@@ -26,8 +28,11 @@ My name is Arcanjo Espinoba, I am 63 years old and I am blessing of 1,275 couple
 I have 31 years of public life. I entered the church in 1980 when I was 33 years old.
 
 I was a business man and owned a construction company. I abandoned my business after 7-day seminar to follow True Parents. I was a full time member for 7 years, missionary in Baya for 1.5 years, missionary in Bloomena for 3 years and state leader of St. Catherina for 9 years.
+
+#### Had heart problem and was told would only live till 33 years old 
+
 When I met UC when I was 33, I had a heart problem and doctor told me I would only live till 33 years old. I did fund raising and dedicated to providence of God. Afterwards, when I visited the hospital where I was being treated they found I no longer had heart problem. When I went into the hospital, the nurse thought I was a ghost, but the doctors found I had no heart problems.
-The doctor said he didn’t believe in God but was forced to believe it was a miracle because I was completely cured. I witnessed that I was following True Parents and they had transformed my life and my health. I’ve done work as Tribal Messiah for 21 years. sincere devotion, the sincere condition of God of absolute faith to follow True Parents.
+**The doctor said he didn’t believe in God but was forced to believe it was a miracle because I was completely cured.** I witnessed that I was following True Parents and they had transformed my life and my health. I’ve done work as Tribal Messiah for 21 years. sincere devotion, the sincere condition of God of absolute faith to follow True Parents.
 Thruout this time I did various seminars and found people weren’t accepting the words very easily. 
 
 I did special condition of sincere devotion for 7 years I fasted every Friday and only ate 1 meal a day after 5am and took a cold shower, even at time of blessing understanding that I am a sinner and that I am a sinner with many sins. To remove my sins, I made this special condition for 21 years of making HDK of 90 minutes daily, I started to give testimony and changed my life completely.
