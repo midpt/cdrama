@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Short-shorts are unsightly"
+title: "Short shorts are unsightly"
 description: "Concerned dad took matters into his own hands"
 headline: 
 modified: 2016-09-25
