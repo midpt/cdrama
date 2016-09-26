@@ -16,12 +16,12 @@ featured: true
   
 ![]({{ site.url}}/images/maitreya-buddha.png)
 
-
 Nanette Crist Johnson is a visionary artist who has the gift to visualise ancient saints while in meditation. After one of her meditation session, she painted Maitreya Buddha.
-In 1996, she presented the painting in Global Science Congress
+In 1996, she presented the painting in Global Science Congress.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/MXks_RJZ4jA" frameborder="0" allowfullscreen></iframe>
+#### Nanette Crist Johnson interview
 
+<iframe width="360" height="202" src="https://www.youtube.com/embed/MXks_RJZ4jA" frameborder="0" allowfullscreen></iframe>
 
 [Nanette Crist Johnson site](http://www.theexpandedheart.com/NCJ2.html){:target="_blank"}
 
