@@ -20,5 +20,5 @@ featured: true
 American dad Scott Mackintosh turned a pair of his own jeans into short-shorts to demonstrate his unhappiness with his teenaged daughter's skimpy wardrobe.
 
 
-[For more info](http://www.people.com/people/article/0,,20734380,00.html)
+[For more info](http://www.people.com/people/article/0,,20734380,00.html){:target="_blank"}
 
